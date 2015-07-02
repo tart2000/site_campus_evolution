@@ -9,3 +9,7 @@ role: admin
 token: 70f3e1e70564ad34d38894a968e8ac28afbffd80
 firstname: Pierre-Antoine
 lastname: Chesnel
+history:
+  - home
+  - formations
+  - conferences
