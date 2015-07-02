@@ -4,7 +4,6 @@ title: Agenda
 pages: true
 	template: 
 		- evenement
-		- formation
 fields:
   title:
     label: Title

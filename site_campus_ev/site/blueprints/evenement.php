@@ -1,12 +1,24 @@
 <?php if(!defined('KIRBY')) exit ?>
 
 title: Événement
-pages: true
-files: true
+pages: false
+files: false
 fields:
   title:
     label: Titre
     type:  text
+  category_conf:
+    label: Conférence
+    type: select
+    options: query
+    query:
+      page: conferences
+  category_form:
+    label: Formation
+    type: select
+    options: query
+    query:
+      page: formations
   text:
     label: Text
     type:  textarea

@@ -10,6 +10,8 @@ token: 70f3e1e70564ad34d38894a968e8ac28afbffd80
 firstname: Pierre-Antoine
 lastname: Chesnel
 history:
+  - conferences/conference-1
+  - agenda/evenement-1
   - home
   - formations
   - conferences
