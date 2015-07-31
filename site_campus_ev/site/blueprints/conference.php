@@ -1,9 +1,7 @@
 <?php if(!defined('KIRBY')) exit ?>
 
 title: Conférence
-pages: true
-  template:
-    - temoignage
+pages: false
 files:
   sortable: true
 fields:

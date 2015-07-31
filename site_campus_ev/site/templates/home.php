@@ -14,7 +14,10 @@
 
 	<hr>
 
+
 	<?php snippet('piliers') ?>
+	<?php snippet('temoignages') ?>
+
 
 </div>
 

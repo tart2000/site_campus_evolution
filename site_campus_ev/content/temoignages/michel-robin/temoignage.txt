@@ -1,0 +1,25 @@
+Title: Michel Robin
+
+----
+
+Video: 
+
+----
+
+Service: formation-1
+
+----
+
+Texte: Bacon ipsum dolor amet pork loin beef spare ribs shoulder strip steak meatloaf beef ribs ham hock doner drumstick salami short ribs filet mignon cow leberkas. Beef fatback turkey short loin.
+
+----
+
+Poste: Développeur
+
+----
+
+Company: World Company
+
+----
+
+Conf: 
