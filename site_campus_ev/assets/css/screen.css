@@ -49,26 +49,31 @@ body, html {
   -o-background-size: cover;
   background-size: cover;
 }
-/* line 44, ../sass/screen.sass */
+/* line 45, ../sass/screen.sass */
 #temoignages .temoignage {
   background-color: rgba(255, 255, 255, 0.7);
+  width: 500px;
   text-align: center;
   padding: 20px;
-  margin-top: 100px;
+  margin: 100px auto 0;
   font-size: 20px;
   font-style: italic;
   -webkit-font-smoothing: antialiased;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
 }
-/* line 52, ../sass/screen.sass */
+/* line 55, ../sass/screen.sass */
 #temoignages .temoignage .author {
   display: block;
   margin: 15px 0 0 0;
+  line-height: 12px;
 }
-/* line 55, ../sass/screen.sass */
+/* line 59, ../sass/screen.sass */
 #temoignages .temoignage .status {
   font-size: 14px;
 }
-/* line 58, ../sass/screen.sass */
+/* line 62, ../sass/screen.sass */
 #temoignages .temoignage a {
   background: orange;
   color: white;

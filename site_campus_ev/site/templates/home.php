@@ -8,10 +8,8 @@
 <div class="container">
 	<?php snippet('piliers') ?>
 </div>
-
-	<?php snippet('piliers') ?>
-	<?php snippet('clients') ?>
 	<?php snippet('temoignages') ?>
+	<?php snippet('clients') ?>
 
 </div>
 
