@@ -1,0 +1,9 @@
+Title: Linkedin
+
+----
+
+Faicon: linkedin
+
+----
+
+Sociallink: http://www.linkedin.com/profile/view?id=5265096&trk=tab_pro

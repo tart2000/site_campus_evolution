@@ -1,12 +1,17 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Client
+title: Social
 pages: false
-files: true
+files: false
 fields:
   title:
     label: Nom
     type: text
-  companyLink: 
+  faIcon: 
+  	label: Font Awesome Icon
+  	type: text
+  	width: 1/2
+  socialLink: 
     label: Lien
     type: Url
+    width: 1/2

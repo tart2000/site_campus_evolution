@@ -24,4 +24,4 @@
 
 </div>
 
-<?php snippet('footer') ?>
+<?php snippet('socials') ?>
