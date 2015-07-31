@@ -1,7 +1,7 @@
 <?php if(!defined('KIRBY')) exit ?>
 
 title: Pilier
-pages: false
+pages: true
 files: false
 fields:
   title:
@@ -10,6 +10,10 @@ fields:
   video:
   	label: Vidéo
   	type: url
+  icone:
+  	label: Icone
+  	type: text
+  	width: 1/2
   text:
     label: Text
     type:  textarea

@@ -12,10 +12,15 @@
       <?php echo $page->text()->kirbytext() ?>
     </div>
 
-<hr>
+	<hr>
 
-<?php snippet('clients') ?>
-<?php snippet('temoignages') ?>
+
+	<?php snippet('piliers') ?>
+	<?php snippet('clients') ?>
+	<?php snippet('temoignages') ?>
+
+
+
 
 </div>
 

@@ -3,12 +3,7 @@
 title: Offre
 pages: true
 	template: pilier
-files:
-  fields:
-    caption:
-      label: Caption
-      type: textarea
-
+files: false
 fields:
   title:
     label: Title
