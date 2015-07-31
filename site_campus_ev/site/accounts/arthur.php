@@ -10,6 +10,8 @@ language: fr
 role: admin
 token: 70e5f751a8c05f8a80d68aadf7bdc0403ca2f806
 history:
-  - temoignages/john-doe
-  - temoignages/michel-robin
-  - temoignages
+  - socials/youtube
+  - socials/linkedin
+  - socials/twitter
+  - socials/facebook
+  - socials

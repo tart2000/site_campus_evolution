@@ -9,10 +9,10 @@
 	<?php snippet('piliers') ?>
 </div>
 
-
-<?php snippet('temoignages') ?>
-
+	<?php snippet('piliers') ?>
+	<?php snippet('clients') ?>
+	<?php snippet('temoignages') ?>
 
 </div>
 
-<?php snippet('footer') ?>
+<?php snippet('socials') ?>
