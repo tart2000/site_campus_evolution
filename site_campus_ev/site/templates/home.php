@@ -12,9 +12,9 @@
       <?php echo $page->text()->kirbytext() ?>
     </div>
 
-<hr>
+	<hr>
 
-<?php snippet('projects') ?>
+	<?php snippet('piliers') ?>
 
 </div>
 
