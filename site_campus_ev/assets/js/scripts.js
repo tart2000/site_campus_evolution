@@ -1,4 +1,5 @@
 $(document).ready(function(){
+ //http://bxslider.com/options
  $('.slider1').bxSlider({
     // slideWidth: 400,
     auto : true,
