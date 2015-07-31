@@ -14,7 +14,7 @@
 
 <hr>
 
-<?php snippet('projects') ?>
+<?php snippet('temoignages') ?>
 
 </div>
 

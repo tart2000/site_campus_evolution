@@ -1,21 +1,37 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Témoignage
-pages: true
-files: true
+title: Temoignage
+pages: false
+files: false
 fields:
   title:
-    label: Titre
-    type: text
-  name:
     label: Nom
     type: text
-  compagny: 
+  poste:
+    label: Poste
+    type: text
+    width: 1/2
+  company: 
     label: Entreprise
     type: text
+    width: 1/2
   video:
     label: Vidéo
     type: url
+  service:
+    label: Service ?
+    type: select
+    options: query
+    query:
+      page: formations
+    width: 1/2
+  conf: 
+    label: Conférence ? 
+    type: select
+    options: query
+    query: 
+      page: conferences
+    width: 1/2
   texte:
     label: Texte
     type: textarea
