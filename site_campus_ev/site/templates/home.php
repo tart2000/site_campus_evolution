@@ -14,6 +14,7 @@
 
 <hr>
 
+<?php snippet('clients') ?>
 <?php snippet('temoignages') ?>
 
 </div>
