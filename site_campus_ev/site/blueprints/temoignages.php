@@ -3,7 +3,7 @@
 title: Temoignages
 pages: true
 	template: temoignage
-files: false
+files: true
 fields:
   title:
     label: Titre
