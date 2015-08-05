@@ -9,16 +9,50 @@ body, html {
 }
 
 /* line 12, ../sass/screen.sass */
+h2 {
+  text-align: center;
+}
+
+/* line 16, ../sass/screen.sass */
+#clients {
+  margin: 50px 0;
+}
+/* line 18, ../sass/screen.sass */
+#clients .client {
+  text-align: center;
+  margin-top: 30px;
+}
+/* line 21, ../sass/screen.sass */
+#clients .client a {
+  vertical-align: middle;
+  display: table-cell;
+  height: 130px;
+  padding: 0 10px;
+}
+/* line 26, ../sass/screen.sass */
+#clients .client a img {
+  vertical-align: middle;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  transition: all 0.1s ease-in-out;
+}
+/* line 31, ../sass/screen.sass */
+#clients .client a img:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
+/* line 35, ../sass/screen.sass */
 .pilier {
   margin: 0 0 40px 0;
   padding: 0 40px;
 }
-/* line 15, ../sass/screen.sass */
+/* line 38, ../sass/screen.sass */
 .pilier .title {
   font-weight: bold;
   margin: 10px 0;
 }
-/* line 18, ../sass/screen.sass */
+/* line 41, ../sass/screen.sass */
 .pilier .more {
   border: 1px solid #999;
   border-radius: 3px;
@@ -29,13 +63,13 @@ body, html {
   margin: 10px 0 0 0;
   text-decoration: none;
 }
-/* line 27, ../sass/screen.sass */
+/* line 50, ../sass/screen.sass */
 .pilier:last-child:nth-child(odd) {
   margin: auto;
   float: none;
 }
 
-/* line 32, ../sass/screen.sass */
+/* line 55, ../sass/screen.sass */
 #temoignages {
   display: inline-block;
   height: 500px;
@@ -48,21 +82,21 @@ body, html {
   -o-background-size: cover;
   background-size: cover;
 }
-/* line 45, ../sass/screen.sass */
+/* line 68, ../sass/screen.sass */
 #temoignages .fa {
   color: white;
   position: absolute;
   top: 30%;
 }
-/* line 49, ../sass/screen.sass */
+/* line 72, ../sass/screen.sass */
 #temoignages .fa.fa-quote-right {
   right: 40px;
 }
-/* line 51, ../sass/screen.sass */
+/* line 74, ../sass/screen.sass */
 #temoignages .fa.fa-quote-left {
   left: 40px;
 }
-/* line 53, ../sass/screen.sass */
+/* line 76, ../sass/screen.sass */
 #temoignages .temoignage {
   background-color: rgba(255, 255, 255, 0.7);
   width: 500px;
@@ -77,17 +111,17 @@ body, html {
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }
-/* line 64, ../sass/screen.sass */
+/* line 87, ../sass/screen.sass */
 #temoignages .temoignage .author {
   display: block;
   margin: 15px 0 0 0;
   line-height: 12px;
 }
-/* line 68, ../sass/screen.sass */
+/* line 91, ../sass/screen.sass */
 #temoignages .temoignage .status {
   font-size: 14px;
 }
-/* line 71, ../sass/screen.sass */
+/* line 94, ../sass/screen.sass */
 #temoignages .temoignage a {
   background: orange;
   color: white;

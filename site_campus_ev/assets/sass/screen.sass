@@ -8,6 +8,29 @@
 body, html
 	width : 100%
 
+
+h2
+	text-align: center
+
+
+#clients 
+	margin : 50px 0
+	.client
+		text-align: center
+		margin-top: 30px
+		a
+			vertical-align: middle
+			display : table-cell
+			height: 130px
+			padding : 0 10px
+			img
+				vertical-align: middle
+				// max-width: 200px
+				+filter(grayscale(100%))
+				transition : all 0.1s ease-in-out
+				&:hover
+					+filter(grayscale(0%))
+
 //Piliers
 .pilier
 	margin: 0 0 40px 0
