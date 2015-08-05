@@ -1,6 +1,6 @@
 <!-- Fixed navbar -->
 <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <a class="navbar-brand logo" href="<?php echo $site->url ?>"><img src="<?php echo $site->url() ?>/assets/images/logo.png" class="img-responsive"></a>
+  <a class="navbar-brand" href="<?php echo $site->url ?>"><?php echo $site->title() ?></a>
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
