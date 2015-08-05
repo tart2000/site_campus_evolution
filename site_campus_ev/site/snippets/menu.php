@@ -3,7 +3,7 @@
   <div class="container">
     <div class="navbar-header">
       <a class="navbar-brand logo" href="<?php echo $site->url ?>">
-        <img src="/assets/images/logo_M_seul.gif" class="img-responsive">
+        <img src="/assets/images/logo_M_seul.png" class="img-responsive">
       </a>
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="sr-only">Toggle navigation</span>
