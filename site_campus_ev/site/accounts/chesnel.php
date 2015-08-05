@@ -10,8 +10,8 @@ token: 317189fe5af6134e0eb7d118c36c1bf8c5aca7f5
 firstname: Pierre-Antoine
 lastname: Chesnel
 history:
+  - temoignages/john-doe
+  - formations/formation-2
   - offre/liberer-les-equipes
   - offre/liberer-les-homme
   - offre/liberer-le-management
-  - offre/liberer-le-projet-d-entreprise
-  - offre/liberer-les-organisation

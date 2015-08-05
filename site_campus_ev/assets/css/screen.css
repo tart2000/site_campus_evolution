@@ -41,7 +41,6 @@ body, html {
   height: 500px;
   width: 100%;
   margin: 40px 0;
-  background: url(/assets/images/hands.jpg) no-repeat center center;
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
@@ -50,30 +49,45 @@ body, html {
   background-size: cover;
 }
 /* line 45, ../sass/screen.sass */
+#temoignages .fa {
+  color: white;
+  position: absolute;
+  top: 30%;
+}
+/* line 49, ../sass/screen.sass */
+#temoignages .fa.fa-quote-right {
+  right: 40px;
+}
+/* line 51, ../sass/screen.sass */
+#temoignages .fa.fa-quote-left {
+  left: 40px;
+}
+/* line 53, ../sass/screen.sass */
 #temoignages .temoignage {
   background-color: rgba(255, 255, 255, 0.7);
   width: 500px;
   text-align: center;
-  padding: 20px;
+  padding: 20px 100px;
   margin: 100px auto 0;
   font-size: 20px;
   font-style: italic;
+  position: relative;
   -webkit-font-smoothing: antialiased;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }
-/* line 55, ../sass/screen.sass */
+/* line 64, ../sass/screen.sass */
 #temoignages .temoignage .author {
   display: block;
   margin: 15px 0 0 0;
   line-height: 12px;
 }
-/* line 59, ../sass/screen.sass */
+/* line 68, ../sass/screen.sass */
 #temoignages .temoignage .status {
   font-size: 14px;
 }
-/* line 62, ../sass/screen.sass */
+/* line 71, ../sass/screen.sass */
 #temoignages .temoignage a {
   background: orange;
   color: white;

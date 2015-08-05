@@ -34,7 +34,7 @@ body, html
 	height : 500px
 	width: 100%
 	margin : 40px 0
-	background: url(/assets/images/hands.jpg) no-repeat center center
+	// background: url(/assets/images/hands.jpg) no-repeat center center
 	background-repeat : no-repeat
 	background-position: center center
 	-webkit-background-size: cover
@@ -42,14 +42,23 @@ body, html
 	-o-background-size: cover
 	background-size: cover
 
+	.fa
+		color : white
+		position : absolute
+		top : 30%
+		&.fa-quote-right
+			right : 40px
+		&.fa-quote-left
+			left : 40px
 	.temoignage
 		background-color : rgba(255,255,255,0.7)
 		width : 500px
 		text-align: center
-		padding : 20px
+		padding :  20px 100px
 		margin: 100px auto 0
 		font-size: 20px
 		font-style: italic
+		position: relative
 		-webkit-font-smoothing: antialiased
 		+border-radius(3px)
 		.author
