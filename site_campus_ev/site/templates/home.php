@@ -21,6 +21,9 @@
 	</div>
 </div>
 
+<?php echo js('/assets/js/jquery.scrollTo.js') ?>
+<div id="godown" class="fa fa-angle-down"></div>
+
 <div class="container">
 	<?php snippet('piliers') ?>
 
@@ -47,4 +50,5 @@
 
 <div class="container">
 	<?php snippet('socials') ?>
+	<?php snippet('links') ?>
 </div>

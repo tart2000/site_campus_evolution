@@ -1,0 +1,76 @@
+
+
+/** Header **/
+.links {
+    text-transform: uppercase; 
+    text-align: center;
+}
+.links a {
+    color: orange;
+}
+.logo img {
+    position: relative; 
+    top: -4px;
+}
+.navbar {
+    text-transform: uppercase;
+}
+.navbar-nav>li>a {
+    line-height: 50px;
+}
+.navbar-nav>li>a.active {
+    background-color: #e7e7e7;
+}
+.navbar-nav>li>a:hover {
+    background-color: #e7e7e7 !important;   
+}
+/** Banner **/
+#godown {
+  position: relative;
+  bottom: 35px;
+  left: 50%;
+  width: 7rem;
+  height: 7rem;
+  margin-left: -35px;
+  background: #ffffff;
+  border-radius: 50%;
+  font-size: 6.2rem;
+  line-height: 6.4rem;
+  color: #BBBAC0;
+  text-align: center;
+  cursor: pointer;
+  z-index: 100;
+}
+
+/** General CSS **/
+.pt {
+    padding-top: 15px; 
+}
+.pb {
+    padding-bottom: 15px; 
+}
+.bpt {
+    padding-top: 45px;
+}
+.bpb {
+    padding-bottom: 45px; 
+}
+.mt {
+    margin-top: 15px; 
+}
+.mb {
+    margin-bottom: 15px; 
+}
+.bmt {
+    margin-top: 45px; 
+}
+.bmb {
+    margin-bottom: 45px;
+}
+
+/** Footer **/ 
+.footer {
+    background-color: black; 
+    color: grey;
+}
+

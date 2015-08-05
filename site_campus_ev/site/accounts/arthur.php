@@ -8,10 +8,10 @@ password: >
   $2a$10$1bI2MtEE3H0Ya1F/AhE/cOoNtV.Fjt43yU5I3K1LdBLRLury4ZE2C
 language: fr
 role: admin
-token: 70e5f751a8c05f8a80d68aadf7bdc0403ca2f806
+token: c23169e24349f9fcb98a19fafb23a8f23484d3d8
 history:
+  - liens/oser-entreprendre
+  - liens/azoka
   - socials/youtube
   - socials/linkedin
   - socials/twitter
-  - socials/facebook
-  - socials

@@ -15,6 +15,10 @@ $(document).ready(function() {
         });
     }
 
+    $('#godown').click(function () {
+        $('html, body').scrollTo($('#piliers'), 300, {offset:{top:-30}});
+    });
+
     //http://bxslider.com/options
     $('.slider1').bxSlider({
         // slideWidth: 400,
