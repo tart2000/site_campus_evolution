@@ -1,4 +1,4 @@
-Title: conférence-1a
+Title: Formation C
 
 ----
 
@@ -19,6 +19,10 @@ Objectifs:
 ----
 
 Duree: 
+
+----
+
+Type: 
 
 ----
 

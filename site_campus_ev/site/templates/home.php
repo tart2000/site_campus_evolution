@@ -3,6 +3,7 @@
 <?php $image = page('home')->images()->first()->url(); ?>
 
 <div class="banner" style="background-image: url(<?php echo $image ?>);">
+	<div class="container">
 	<div class="row">
 		<div class="col-sm-12 logo">
 			<a href="/">
@@ -11,20 +12,34 @@
 		</div>
 		<div class="col-sm-12">
 			<div class="col-sm-5"></div>
-			<div class="col-sm-6 description">
+			<div class="col-sm-7 description">
 				<p><?php echo $site->description(); ?></p>
 				<a class='btn' href="#">Voir nos services</a>
 			</div>
-			<div class="col-sm-1"></div>
 		</div>
+	</div>
 	</div>
 </div>
 
 <div class="container">
 	<?php snippet('piliers') ?>
+
+	<div class="row">
+		<div class="col-sm-12">
+			<h2>Nos Services</h2>
+			<?php foreach (page('services')->children()->limit(3) as $s): ?>
+				<div class="col-sm-4">
+			 		<?php snippet('service', array('service' => $s)) ?>
+			 	</div>
+			<?php endforeach ?>
+		</div>
+	</div>
 </div>
-<div class="container">
-	<?php snippet('clients') ?>
+
+<div class="bgWhite">
+	<div class="container ">
+		<?php snippet('clients') ?>
+	</div>
 </div>
 	<?php snippet('temoignages') ?>
 

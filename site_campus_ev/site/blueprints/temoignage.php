@@ -23,15 +23,9 @@ fields:
     type: select
     options: query
     query:
-      page: formations
+      page: services
     width: 1/2
-  conf: 
-    label: Conférence ? 
-    type: select
-    options: query
-    query: 
-      page: conferences
-    width: 1/2
+
   texte:
     label: Texte
     type: textarea

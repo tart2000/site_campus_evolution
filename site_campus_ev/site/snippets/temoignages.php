@@ -14,17 +14,17 @@
 					    </br>
 
 					    <!-- mettre le lien vers le service lié -->
-					    <?php if($t->service() != "" || $t->conf() != ""){ ?>
+	
 
 						    <?php if($t->service() != ""){
-							    	$pageConfForm = page('formations')->find($t->service());
-							    } else {
-							    	$pageConfForm = page('conferences')->find($t->conf());
-							}?>
+							    $pageService = page('services')->find($t->service());
+							?>
+								<a href="<?php echo $pageService->url(); ?>" class="btn btn-style"><?php echo $pageService->title(); ?></a>
+							 <?php }?>
 
-						    <a href="<?php echo $pageConfForm->url(); ?>" class="btn btn-style"><?php echo $pageConfForm->title(); ?></a>
+						   
 
-					    <?php } ?>
+	
 				   		<i class="fa fa-2x fa-quote-right"></i>
 				   	</div>
 				</div>

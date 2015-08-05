@@ -1,5 +1,0 @@
-Title: formations
-
-----
-
-Text: Hello World!

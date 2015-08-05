@@ -1,4 +1,4 @@
-Title: formation-1
+Title: Formation B
 
 ----
 
@@ -19,6 +19,10 @@ Objectifs:
 ----
 
 Duree: 
+
+----
+
+Type: 
 
 ----
 

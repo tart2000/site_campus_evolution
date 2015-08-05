@@ -1,6 +1,6 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Conférence
+title: Services
 pages: false
 files:
   sortable: true
@@ -13,7 +13,11 @@ fields:
     type:  text
   piliers:
     label: Pilier(s) (choix du / des piliers correspondant)
-    type: text
+    type: select
+    options: query
+    query:
+      page: offre
+    width: 1/2
   cible:
     label: Cible
     type: text
@@ -23,8 +27,15 @@ fields:
   duree:
     label: Durée
     type: text
+  type:
+    label : Quel type de service ?
+    type: select
+    options:
+      formation: Formation
+      conference: Conférence
+    width: 1/2
   why:
-    label: Pourquoi cette conférence ?
+    label: Pourquoi ce service ?
     type: textarea
   video:
     label: video (url)

@@ -6,17 +6,25 @@
 /* line 8, ../sass/screen.sass */
 body, html {
   width: 100%;
+  background-color: #f1f1f1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-smoothing: antialiased;
 }
 
-/* line 13, ../sass/screen.sass */
-h2 {
+/* line 15, ../sass/screen.sass */
+h1, h2, h3 {
   text-align: center;
+  font-family: "bebasneue_regular", "helvetica";
 }
 
-/* line 16, ../sass/screen.sass */
+/* line 19, ../sass/screen.sass */
+h2 {
+  font-size: 50px;
+  margin: 20px 0;
+}
+
+/* line 22, ../sass/screen.sass */
 .btn {
   background: #ef7a00;
   color: white;
@@ -24,7 +32,12 @@ h2 {
   font-size: 20px;
 }
 
-/* line 22, ../sass/screen.sass */
+/* line 29, ../sass/screen.sass */
+.bgWhite {
+  background: white;
+}
+
+/* line 32, ../sass/screen.sass */
 .banner {
   height: 400px;
   margin-top: -15px;
@@ -36,66 +49,73 @@ h2 {
   background-size: cover;
   position: relative;
   font-weight: bold;
+  line-height: 65px;
 }
-/* line 33, ../sass/screen.sass */
+/* line 44, ../sass/screen.sass */
 .banner .logo {
   text-align: left;
   margin-bottom: 80px;
 }
-/* line 36, ../sass/screen.sass */
+/* line 47, ../sass/screen.sass */
 .banner .logo img {
-  margin: 100px 100px 0;
+  margin: 100px 0 0;
 }
-/* line 39, ../sass/screen.sass */
+/* line 50, ../sass/screen.sass */
 .banner .description {
   background: rgba(255, 255, 255, 0.5);
   font-size: 55px;
   padding: 20px;
   color: #ef7a00;
   font-family: "bebasneue_regular", "helvetica";
+  font-weight: 200;
   text-align: right;
 }
 
-/* line 53, ../sass/screen.sass */
+/* line 65, ../sass/screen.sass */
 #clients {
-  margin: 50px 0;
+  margin: 40px 0 70px;
 }
-/* line 55, ../sass/screen.sass */
+/* line 67, ../sass/screen.sass */
 #clients .client {
   text-align: center;
   margin-top: 30px;
 }
-/* line 58, ../sass/screen.sass */
+/* line 70, ../sass/screen.sass */
 #clients .client a {
   vertical-align: middle;
   display: table-cell;
   height: 130px;
   padding: 0 10px;
 }
-/* line 63, ../sass/screen.sass */
+/* line 75, ../sass/screen.sass */
 #clients .client a img {
   vertical-align: middle;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   transition: all 0.1s ease-in-out;
 }
-/* line 68, ../sass/screen.sass */
+/* line 80, ../sass/screen.sass */
 #clients .client a img:hover {
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
 }
 
-/* line 72, ../sass/screen.sass */
+/* line 84, ../sass/screen.sass */
+#piliers {
+  margin: 0 0 100px 0;
+}
+
+/* line 86, ../sass/screen.sass */
 .pilier {
   margin: 50px 0 40px 0;
   padding: 0 40px;
 }
-/* line 75, ../sass/screen.sass */
+/* line 89, ../sass/screen.sass */
 .pilier .title {
   font-weight: bold;
   margin: 10px 0;
 }
-/* line 78, ../sass/screen.sass */
+/* line 92, ../sass/screen.sass */
 .pilier .more {
   border: 1px solid #999;
   border-radius: 3px;
@@ -106,18 +126,17 @@ h2 {
   margin: 10px 0 0 0;
   text-decoration: none;
 }
-/* line 87, ../sass/screen.sass */
+/* line 101, ../sass/screen.sass */
 .pilier:last-child:nth-child(odd) {
   margin: auto;
   float: none;
 }
 
-/* line 92, ../sass/screen.sass */
+/* line 106, ../sass/screen.sass */
 #temoignages {
   display: inline-block;
   height: 500px;
   width: 100%;
-  margin: 40px 0;
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
@@ -125,27 +144,27 @@ h2 {
   -o-background-size: cover;
   background-size: cover;
 }
-/* line 105, ../sass/screen.sass */
+/* line 119, ../sass/screen.sass */
 #temoignages .fa {
   color: white;
   position: absolute;
   top: 30%;
 }
-/* line 109, ../sass/screen.sass */
+/* line 123, ../sass/screen.sass */
 #temoignages .fa.fa-quote-right {
   right: 40px;
 }
-/* line 111, ../sass/screen.sass */
+/* line 125, ../sass/screen.sass */
 #temoignages .fa.fa-quote-left {
   left: 40px;
 }
-/* line 113, ../sass/screen.sass */
+/* line 127, ../sass/screen.sass */
 #temoignages .temoignage {
   background-color: rgba(255, 255, 255, 0.7);
   width: 500px;
   text-align: center;
   padding: 20px 100px;
-  margin: 100px auto 0;
+  margin: 60px auto 0;
   font-size: 20px;
   font-style: italic;
   position: relative;
@@ -154,18 +173,71 @@ h2 {
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }
-/* line 124, ../sass/screen.sass */
+/* line 138, ../sass/screen.sass */
 #temoignages .temoignage .author {
   display: block;
   margin: 15px 0 0 0;
   line-height: 12px;
 }
-/* line 128, ../sass/screen.sass */
+/* line 142, ../sass/screen.sass */
 #temoignages .temoignage .status {
   font-size: 14px;
 }
-/* line 131, ../sass/screen.sass */
+/* line 145, ../sass/screen.sass */
 #temoignages .temoignage a {
   background: orange;
   color: white;
+}
+
+/* line 152, ../sass/screen.sass */
+#social {
+  margin: 30px 0;
+}
+
+/* line 160, ../sass/screen.sass */
+.service {
+  text-align: center;
+  width: 100%;
+  margin: 0 0 40px;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  position: relative;
+}
+/* line 168, ../sass/screen.sass */
+.service:hover {
+  color: black;
+  text-decoration: none;
+}
+/* line 171, ../sass/screen.sass */
+.service img {
+  width: 100%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+/* line 176, ../sass/screen.sass */
+.service .information {
+  height: 200px;
+  background: white;
+  float: left;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+/* line 183, ../sass/screen.sass */
+.service h3 {
+  margin: 20px 0 10px;
+}
+/* line 185, ../sass/screen.sass */
+.service .text {
+  padding: 0 20px 20px;
+}
+/* line 188, ../sass/screen.sass */
+.service .filter {
+  background-color: #ef7a00;
+  opacity: 0.3;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
 }

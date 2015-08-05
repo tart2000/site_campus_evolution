@@ -10,8 +10,8 @@ token: 317189fe5af6134e0eb7d118c36c1bf8c5aca7f5
 firstname: Pierre-Antoine
 lastname: Chesnel
 history:
+  - temoignages/michel-robin
+  - temoignages/john-doe
+  - services/test
   - null
   - clients/mac-donalds
-  - clients/club-piscine
-  - clients/aldo
-  - clients/qualinet

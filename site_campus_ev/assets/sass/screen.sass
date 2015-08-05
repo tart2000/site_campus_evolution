@@ -7,17 +7,27 @@
 
 body, html
 	width : 100%
+	background-color : #f1f1f1
 	-webkit-font-smoothing: antialiased
 	-moz-osx-font-smoothing: grayscale
 	font-smoothing : antialiased
-h2
-	text-align: center
 
+h1, h2,h3
+	text-align: center
+	font-family : 'bebasneue_regular', 'helvetica'
+
+h2
+	font-size: 50px
+	margin : 20px 0
 .btn
 	background : #ef7a00
 	color : white
 	display : inline-block
 	font-size : 20px
+
+
+.bgWhite
+	background : white
 
 .banner
 	height : 400px
@@ -30,11 +40,12 @@ h2
 	background-size: cover
 	position: relative
 	font-weight : bold
+	line-height : 65px
 	.logo
 		text-align: left
 		margin-bottom : 80px
 		img
-			margin : 100px 100px 0
+			margin : 100px 0 0
 
 	.description
 		background : rgba(255,255,255,0.5)
@@ -43,6 +54,7 @@ h2
 		// margin : 200px 0 0 0
 		color : #ef7a00
 		font-family : 'bebasneue_regular', 'helvetica'
+		font-weight: 200
 		text-align: right
 		// position : absolute
 		// bottom : 150px
@@ -51,7 +63,7 @@ h2
 		// text-transform: uppercase
 
 #clients 
-	margin : 50px 0
+	margin : 40px 0 70px
 	.client
 		text-align: center
 		margin-top: 30px
@@ -69,6 +81,8 @@ h2
 					+filter(grayscale(0%))
 
 //Piliers
+#piliers
+	margin : 0 0 100px 0
 .pilier
 	margin: 50px 0 40px 0
 	padding: 0 40px
@@ -93,7 +107,7 @@ h2
 	display: inline-block
 	height : 500px
 	width: 100%
-	margin : 40px 0
+	// margin : 40px 0
 	// background: url(/assets/images/hands.jpg) no-repeat center center
 	background-repeat : no-repeat
 	background-position: center center
@@ -115,7 +129,7 @@ h2
 		width : 500px
 		text-align: center
 		padding :  20px 100px
-		margin: 100px auto 0
+		margin: 60px auto 0
 		font-size: 20px
 		font-style: italic
 		position: relative
@@ -131,3 +145,53 @@ h2
 		a
 			background : orange
 			color : white
+
+
+//-------SOCIAL ------------//
+
+#social
+	margin : 30px 0
+
+
+//------ SERVICE ----------//
+
+#services
+
+.service
+	text-align : center
+	width : 100%
+	margin : 0 0 40px 
+	display : inline-block
+	text-decoration : none
+	color : black
+	position : relative
+	&:hover
+		color : black
+		text-decoration : none
+	img
+		width : 100%
+		+filter(grayscale(100%))
+		// -webkit-filter: saturate(1)
+		// -webkit-filter: hue-rotate(200deg)
+	.information
+		height : 200px
+		background: white
+		float : left
+		width : 100%
+		position: relative
+		z-index : 2
+	h3
+		margin : 20px 0 10px
+	.text
+		padding : 0 20px 20px
+
+	.filter
+		background-color : #ef7a00
+		opacity : 0.3
+		position: absolute
+		width : 100%
+		height : 100%
+		z-index : 1
+
+
+

@@ -6,7 +6,7 @@ Video:
 
 ----
 
-Service: formation-1
+Service: formation-c
 
 ----
 
@@ -19,7 +19,3 @@ Poste: Développeur
 ----
 
 Company: World Company
-
-----
-
-Conf: 

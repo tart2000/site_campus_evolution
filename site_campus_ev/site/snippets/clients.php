@@ -1,7 +1,6 @@
 
 
 <div class="row" id="clients">
-	<hr>
 	<h2><?php echo page('clients')->title() ?></h2>
 	<?php $counter = 0 ?>
 	<?php foreach (page('clients')->children() as $c) : ?>

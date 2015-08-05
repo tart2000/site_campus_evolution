@@ -1,8 +1,8 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Conférences
+title: Services
 pages:
-  template: conference
+  template: service
 files: false
 fields:
   title:

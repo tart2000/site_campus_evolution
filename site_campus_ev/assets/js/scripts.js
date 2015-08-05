@@ -11,7 +11,7 @@ $(document).ready(function() {
 
     function resizeBanner() {
         $('.banner').css({
-            'height': $(window).height()-35
+            'height': $(window).height()+50
         });
     }
 
