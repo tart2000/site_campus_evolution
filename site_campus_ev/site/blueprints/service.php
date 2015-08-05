@@ -43,3 +43,10 @@ fields:
   text:
     label: Texte
     type: textarea
+  icon:
+    label: Icone
+    type: select
+    options:
+      user : User
+      users : Users
+      microphone : Microphone

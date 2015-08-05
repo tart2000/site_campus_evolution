@@ -1,5 +1,5 @@
 <!-- Fixed navbar -->
-<div class="navbar  navbar-fixed-top" role="navigation">
+<div class="navbar navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
       <a class="navbar-brand logo" href="<?php echo $site->url ?>">

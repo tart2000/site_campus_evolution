@@ -1,5 +1,14 @@
 $(document).ready(function() {
 
+	$(window).scroll(function(){
+		var s = $(document).scrollTop();
+		if(s > 450){
+			$('.navbar').addClass('navbarActive');
+		} else {
+			$('.navbar').removeClass('navbarActive');
+		}
+	});
+
     //Define height banner full screen
     resizeBanner();
     $(window).resize(function() {
@@ -7,7 +16,7 @@ $(document).ready(function() {
     });
 
     //parallax effect
-      $(".banner").parallax("40%", 0.3);
+      // $(".banner").parallax("40%", 0.2);
 
     function resizeBanner() {
         $('.banner').css({
