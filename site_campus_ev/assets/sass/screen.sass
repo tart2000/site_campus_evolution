@@ -7,11 +7,48 @@
 
 body, html
 	width : 100%
-
-
+	-webkit-font-smoothing: antialiased
+	-moz-osx-font-smoothing: grayscale
+	font-smoothing : antialiased
 h2
 	text-align: center
 
+.btn
+	background : #ef7a00
+	color : white
+	display : inline-block
+	font-size : 20px
+
+.banner
+	height : 400px
+	margin-top : -15px
+	background-repeat : no-repeat
+	background-position: center center
+	-webkit-background-size: cover
+	-moz-background-size: cover
+	-o-background-size: cover
+	background-size: cover
+	position: relative
+	font-weight : bold
+	.logo
+		text-align: left
+		margin-bottom : 80px
+		img
+			margin : 100px 100px 0
+
+	.description
+		background : rgba(255,255,255,0.5)
+		font-size: 55px
+		padding : 20px
+		// margin : 200px 0 0 0
+		color : #ef7a00
+		font-family : 'bebasneue_regular', 'helvetica'
+		text-align: right
+		// position : absolute
+		// bottom : 150px
+		// right : 150px
+		// max-width: 650px
+		// text-transform: uppercase
 
 #clients 
 	margin : 50px 0
@@ -33,7 +70,7 @@ h2
 
 //Piliers
 .pilier
-	margin: 0 0 40px 0
+	margin: 50px 0 40px 0
 	padding: 0 40px
 	.title
 		font-weight: bold
