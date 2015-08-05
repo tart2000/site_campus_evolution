@@ -1,6 +1,13 @@
 
 
 /** Header **/
+.links {
+    text-transform: uppercase; 
+    text-align: center;
+}
+.links a {
+    color: orange;
+}
 .logo img {
     position: relative; 
     top: -4px;

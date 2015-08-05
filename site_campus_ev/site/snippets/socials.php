@@ -1,4 +1,4 @@
-<div class="row center">
+<div class="row center mb">
 <?php foreach (page('socials')->children() as $s) : ?>
 	<span class="fa-stack fa-lg">
 		<i class="fa fa-circle fa-stack-2x"></i>
