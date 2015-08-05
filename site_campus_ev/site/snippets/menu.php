@@ -1,8 +1,10 @@
 <!-- Fixed navbar -->
-<div class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <a class="navbar-brand" href="<?php echo $site->url ?>"><?php echo $site->title() ?></a>
+<div class="navbar  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
+      <a class="navbar-brand logo" href="<?php echo $site->url ?>">
+        <img src="/assets/images/logo_M_seul.gif" class="img-responsive">
+      </a>
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>

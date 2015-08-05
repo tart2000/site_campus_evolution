@@ -1,13 +1,17 @@
 
 /** Header **/
 .logo img {
-    max-height: 20px;
+    position: relative; 
+    top: -4px;
 }
 .spacer {
     margin-bottom: 50px;
 }
 .navbar {
     text-transform: uppercase;
+}
+.navbar-nav>li>a {
+    line-height: 50px;
 }
 .navbar-nav>li>a.active {
     background-color: #e7e7e7;
