@@ -10,8 +10,8 @@ language: fr
 role: admin
 token: c23169e24349f9fcb98a19fafb23a8f23484d3d8
 history:
+  - equipe/rousse
+  - equipe/raphael-balay
+  - equipe
   - liens/oser-entreprendre
   - liens/azoka
-  - socials/youtube
-  - socials/linkedin
-  - socials/twitter

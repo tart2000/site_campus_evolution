@@ -2,18 +2,4 @@ Title: Équipe
 
 ----
 
-Text:
-
-## Get in touch
-
-- (link: http://getkirby.com/support text: Kirby's support page)
-- (link: http://getkirby.com/forum text: Kirby's forum)
-- (link: http://github.com/getkirby text: Kirby on Github)
-- <support@getkirby.com>
-
-## Follow us on Twitter
-
-- Follow Kirby on Twitter (twitter: @getkirby)
-- Follow Bastian on Twitter (twitter: @bastianallgeier)
-- Follow Sascha on Twitter (twitter: @sashtown)
-
+Text: Rencontre notre super équipe ! Bacon ipsum dolor amet shankle short ribs biltong, kevin jerky flank cupim pancetta meatball andouille. Brisket pork loin turducken frankfurter. Flank short loin shoulder kielbasa tail porchetta strip steak prosciutto drumstick. Pork loin turducken frankfurter cow shoulder salami cupim chuck. Corned beef shank pastrami, cow leberkas turkey turducken ham hock.
