@@ -5,7 +5,7 @@
 <div class="banner" style="background-image: url(<?php echo $image ?>);">
 	<div class="container">
 	<div class="row">
-		<div class="col-sm-12 logo">
+		<div class="col-sm-12 big-logo">
 			<a href="/">
 				<img  src="/assets/images/logo.png" alt="<?php echo $site->title(); ?>">
 			</a>
@@ -36,6 +36,7 @@
 			 		<?php snippet('service', array('service' => $s)) ?>
 			 	</div>
 			<?php endforeach ?>
+			<a href="<?php echo page('services')->url(); ?>" class="btn-effect">Tous nos services</a>
 		</div>
 	</div>
 </div>

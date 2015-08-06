@@ -1,7 +1,7 @@
 <?php snippet('head') ?>
 <?php snippet('menu') ?>
 
-  <div class="container bmt">
+  <div class="container page">
 
     <div class="row">
     	<div class="col-sm-8 col-sm-offset-2">
