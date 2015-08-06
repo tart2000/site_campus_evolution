@@ -15,6 +15,7 @@
 			<div class="col-sm-7 description">
 				<h1><?php echo $site->description(); ?></h1>
 				<button class='btn-effect  btn-large' href="#">Voir nos services</button>
+				
 			</div>
 		</div>
 	</div>
@@ -27,7 +28,7 @@
 <div class="container">
 	<?php snippet('piliers2') ?>
 
-	<div class="row">
+	<div class="row" id='services'>
 		<div class="col-sm-12">
 			<h2>Nos Services</h2>
 			<?php foreach (page('services')->children()->limit(3) as $s): ?>

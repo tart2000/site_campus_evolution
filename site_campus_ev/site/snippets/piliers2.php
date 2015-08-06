@@ -2,12 +2,8 @@
 	<?php $index=0; ?>
 	<?php foreach (page('offre')->children() as $p) : ?>
 		<?php $index++ ?>
-		<div class="col-sm-6">
-			<div class="row 
-				<?php if ($index%2 == 0) : ?>
-					<?php echo 'pair' ?>
-				<?php endif ?>
-			">
+		<div class="col-md-6 pilier">
+			<div class="row">
 				<div class="col-md-2 col-xs-3 right pt">
 					<img src="<?php echo $p->images()->first()->url() ?>">
 				</div>

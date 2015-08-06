@@ -33,5 +33,11 @@
   <link rel="icon" type="image/ico" href="/assets/images/favicon.ico" />
 
 </head>
-
-<body>
+<?php 
+  if($page->isHomePage()):
+    $homepageClass = 'homePage';
+    else : 
+      $homepageClass = '';
+  endif;
+ ?>
+<body class='<?php echo $homepageClass ?>'>
