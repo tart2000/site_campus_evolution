@@ -89,24 +89,25 @@ h2 {
 .btn-effect.btn-large {
   font-size: 18px;
   padding: 2px 15px;
+  min-width: 220px;
 }
 
-/* line 86, ../sass/screen.sass */
+/* line 87, ../sass/screen.sass */
 .bgWhite {
   background: white;
 }
 
-/* line 90, ../sass/screen.sass */
+/* line 91, ../sass/screen.sass */
 .navbar {
   height: 85px;
   background-color: rgba(255, 255, 255, 0.95);
 }
-/* line 93, ../sass/screen.sass */
+/* line 94, ../sass/screen.sass */
 .navbar a {
   color: #333;
 }
 
-/* line 96, ../sass/screen.sass */
+/* line 97, ../sass/screen.sass */
 .menu-link {
   color: #333;
   line-height: inherit !important;
@@ -118,7 +119,7 @@ h2 {
   cursor: pointer;
   height: 30px;
 }
-/* line 106, ../sass/screen.sass */
+/* line 107, ../sass/screen.sass */
 .menu-link:hover {
   background-color: transparent !important;
   border-bottom: 5px solid #ef7a00;
@@ -126,61 +127,61 @@ h2 {
   text-decoration: none;
 }
 
-/* line 114, ../sass/screen.sass */
+/* line 115, ../sass/screen.sass */
 .homePage .navbar {
   transition: all 0.2s ease-in-out;
   background: transparent;
 }
-/* line 117, ../sass/screen.sass */
+/* line 118, ../sass/screen.sass */
 .homePage .logo {
   display: none;
 }
-/* line 119, ../sass/screen.sass */
+/* line 120, ../sass/screen.sass */
 .homePage .menu-link {
   color: #eee;
 }
 
 @media (max-width: 768px) {
-  /* line 123, ../sass/screen.sass */
+  /* line 124, ../sass/screen.sass */
   .navbar-collapse {
     background-color: rgba(255, 255, 255, 0.95);
   }
-  /* line 125, ../sass/screen.sass */
+  /* line 126, ../sass/screen.sass */
   .navbar-collapse .menu-link {
     margin: 5px 15px;
   }
-  /* line 127, ../sass/screen.sass */
+  /* line 128, ../sass/screen.sass */
   .navbar-collapse .menu-link:hover {
     border: none !important;
   }
 
-  /* line 129, ../sass/screen.sass */
+  /* line 130, ../sass/screen.sass */
   .menu-link:hover {
     border: none !important;
     text-decoration: none !important;
   }
 }
-/* line 134, ../sass/screen.sass */
+/* line 135, ../sass/screen.sass */
 .homePage .navbarActive {
   background: rgba(255, 255, 255, 0.95);
   -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 0px 0px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 0px 0px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 0px 0px;
 }
-/* line 137, ../sass/screen.sass */
+/* line 138, ../sass/screen.sass */
 .homePage .navbarActive .logo {
   display: block;
 }
-/* line 139, ../sass/screen.sass */
+/* line 140, ../sass/screen.sass */
 .homePage .navbarActive a {
   color: #333 !important;
 }
-/* line 141, ../sass/screen.sass */
+/* line 142, ../sass/screen.sass */
 .homePage .navbarActive a:hover {
   color: #ef7a00 !important;
 }
 
-/* line 143, ../sass/screen.sass */
+/* line 144, ../sass/screen.sass */
 .banner {
   height: 400px;
   margin-top: -15px;
@@ -194,66 +195,70 @@ h2 {
   font-weight: bold;
   line-height: 65px;
 }
-/* line 155, ../sass/screen.sass */
+/* line 156, ../sass/screen.sass */
 .banner .big-logo {
   text-align: left;
   margin-bottom: 80px;
 }
-/* line 158, ../sass/screen.sass */
+/* line 159, ../sass/screen.sass */
 .banner .big-logo img {
   margin: 100px 0 0;
 }
-/* line 161, ../sass/screen.sass */
+/* line 162, ../sass/screen.sass */
 .banner .description {
   background: rgba(255, 255, 255, 0.5);
   padding: 20px;
   text-align: right;
 }
-/* line 166, ../sass/screen.sass */
+/* line 167, ../sass/screen.sass */
 .banner .description h1 {
   color: #ef7a00;
 }
 
-/* line 169, ../sass/screen.sass */
+/* line 170, ../sass/screen.sass */
 #clients {
   margin: 40px 0 70px;
 }
-/* line 171, ../sass/screen.sass */
+/* line 172, ../sass/screen.sass */
+#clients h2 {
+  text-align: center;
+}
+/* line 174, ../sass/screen.sass */
 #clients .client {
   text-align: center;
   margin-top: 30px;
 }
-/* line 174, ../sass/screen.sass */
+/* line 177, ../sass/screen.sass */
 #clients .client a {
   vertical-align: middle;
   display: table-cell;
   height: 130px;
   padding: 0 10px;
 }
-/* line 179, ../sass/screen.sass */
+/* line 182, ../sass/screen.sass */
 #clients .client a img {
   vertical-align: middle;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   transition: all 0.1s ease-in-out;
 }
-/* line 184, ../sass/screen.sass */
+/* line 187, ../sass/screen.sass */
 #clients .client a img:hover {
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
 }
 
-/* line 188, ../sass/screen.sass */
+/* line 191, ../sass/screen.sass */
 #piliers {
   margin: 0 0 100px 0;
 }
 
-/* line 193, ../sass/screen.sass */
+/* line 196, ../sass/screen.sass */
 .pilier .title {
   font-weight: bold;
   margin: 10px 0;
 }
-/* line 196, ../sass/screen.sass */
+/* line 199, ../sass/screen.sass */
 .pilier .more {
   border: 1px solid #999;
   border-radius: 3px;
@@ -264,25 +269,25 @@ h2 {
   margin: 10px 0 0 0;
   text-decoration: none;
 }
-/* line 205, ../sass/screen.sass */
+/* line 208, ../sass/screen.sass */
 .pilier:nth-child(even) {
   position: relative;
   top: 90px;
   min-height: 170px;
 }
-/* line 209, ../sass/screen.sass */
+/* line 212, ../sass/screen.sass */
 .pilier a {
   color: #ef7a00;
 }
 
 @media (max-width: 992px) {
-  /* line 213, ../sass/screen.sass */
+  /* line 216, ../sass/screen.sass */
   .pilier:nth-child(even) {
     top: 0;
     min-height: 10px;
   }
 }
-/* line 217, ../sass/screen.sass */
+/* line 220, ../sass/screen.sass */
 #temoignages {
   display: inline-block;
   height: 500px;
@@ -294,21 +299,21 @@ h2 {
   -o-background-size: cover;
   background-size: cover;
 }
-/* line 230, ../sass/screen.sass */
+/* line 233, ../sass/screen.sass */
 #temoignages .fa {
   color: white;
   position: absolute;
   top: 30%;
 }
-/* line 234, ../sass/screen.sass */
+/* line 237, ../sass/screen.sass */
 #temoignages .fa.fa-quote-right {
   right: 40px;
 }
-/* line 236, ../sass/screen.sass */
+/* line 239, ../sass/screen.sass */
 #temoignages .fa.fa-quote-left {
   left: 40px;
 }
-/* line 238, ../sass/screen.sass */
+/* line 241, ../sass/screen.sass */
 #temoignages .temoignage {
   background-color: rgba(255, 255, 255, 0.7);
   width: 500px;
@@ -323,33 +328,33 @@ h2 {
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }
-/* line 249, ../sass/screen.sass */
+/* line 252, ../sass/screen.sass */
 #temoignages .temoignage .author {
   display: block;
   margin: 15px 0 0 0;
   line-height: 12px;
 }
-/* line 253, ../sass/screen.sass */
+/* line 256, ../sass/screen.sass */
 #temoignages .temoignage .status {
   font-size: 14px;
 }
 
-/* line 259, ../sass/screen.sass */
+/* line 262, ../sass/screen.sass */
 #social {
   margin: 30px 0;
 }
 
-/* line 265, ../sass/screen.sass */
+/* line 268, ../sass/screen.sass */
 #services {
   text-align: center;
   margin: 0 0 40px 0;
 }
-/* line 268, ../sass/screen.sass */
+/* line 271, ../sass/screen.sass */
 #services h2 {
   text-align: center;
 }
 
-/* line 270, ../sass/screen.sass */
+/* line 273, ../sass/screen.sass */
 .service {
   text-align: center;
   width: 100%;
@@ -361,11 +366,11 @@ h2 {
   background: white;
   transition: all 0.1s;
 }
-/* line 280, ../sass/screen.sass */
+/* line 283, ../sass/screen.sass */
 .service:hover {
   -webkit-transform: scale(1.03, 1.03);
 }
-/* line 282, ../sass/screen.sass */
+/* line 285, ../sass/screen.sass */
 .service .image {
   background-blend-mode: multiply;
   display: inline-block;
@@ -383,16 +388,16 @@ h2 {
   -o-background-size: cover;
   background-size: cover;
 }
-/* line 300, ../sass/screen.sass */
+/* line 303, ../sass/screen.sass */
 .service:hover {
   color: black;
   text-decoration: none;
 }
-/* line 303, ../sass/screen.sass */
+/* line 306, ../sass/screen.sass */
 .service img {
   width: 100%;
 }
-/* line 308, ../sass/screen.sass */
+/* line 311, ../sass/screen.sass */
 .service .information {
   height: 200px;
   background: white;
@@ -401,15 +406,15 @@ h2 {
   position: relative;
   z-index: 2;
 }
-/* line 315, ../sass/screen.sass */
+/* line 318, ../sass/screen.sass */
 .service h3 {
   margin: 20px 0 10px;
 }
-/* line 317, ../sass/screen.sass */
+/* line 320, ../sass/screen.sass */
 .service .text {
   padding: 0 20px 20px;
 }
-/* line 320, ../sass/screen.sass */
+/* line 323, ../sass/screen.sass */
 .service .filter {
   background-color: #ef7a00;
   opacity: 0.5;
@@ -418,12 +423,12 @@ h2 {
   height: 100%;
   z-index: 1;
 }
-/* line 327, ../sass/screen.sass */
+/* line 330, ../sass/screen.sass */
 .service .btn-effect {
   margin: 0 0 20px 0;
 }
 
-/* line 332, ../sass/screen.sass */
+/* line 335, ../sass/screen.sass */
 .page {
   margin-top: 120px;
 }

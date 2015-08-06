@@ -14,7 +14,7 @@ Video:
 
 ----
 
-Service: formation-b
+Service: 
 
 ----
 

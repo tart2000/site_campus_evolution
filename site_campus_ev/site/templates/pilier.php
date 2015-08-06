@@ -20,6 +20,21 @@
 
       		<!-- for each services associés -->
   		</div>
+      <div class="col-sm-12">
+        <h2>Services</h2>
+        <?php 
+          // $services = page('services')->children() 
+          $uid = $page->uid();
+          // echo $uid;
+          $services = page('services')->children()->filterBy('piliers', '==', $uid);
+
+          ?>
+        <?php foreach ($services as $s) : ?>
+          <div class="col-sm-4">
+            <?php snippet('service', array('service' => $s)) ?>
+          </div>
+         <?php endforeach; ?>
+      </div>
     </div>
 
   </div>

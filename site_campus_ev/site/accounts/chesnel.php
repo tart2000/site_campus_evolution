@@ -11,4 +11,7 @@ firstname: Pierre-Antoine
 lastname: Chesnel
 history:
   - services/coaching
-  - services/conference-de-malaade
+  - temoignages/john-doe
+  - temoignages/michel-robin
+  - services/DSP1
+  - services/conference
