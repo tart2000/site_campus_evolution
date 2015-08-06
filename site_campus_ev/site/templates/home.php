@@ -26,7 +26,6 @@
 
 <div class="container">
 	<?php snippet('piliers2') ?>
-	<?php snippet('piliers') ?>
 
 	<div class="row">
 		<div class="col-sm-12">

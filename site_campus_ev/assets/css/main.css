@@ -71,7 +71,19 @@
 .pilier-text h2 {
     text-transform: uppercase;
 }
+
 /** General CSS **/
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.pair {
+/** Que sur col-xs-++!! **/
+  position: relative ; 
+  top: 50px;
+}
 .pt {
     padding-top: 15px; 
 }
