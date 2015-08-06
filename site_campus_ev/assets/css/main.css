@@ -19,10 +19,10 @@
     line-height: 50px;
 }
 .navbar-nav>li>a.active {
-    background-color: #e7e7e7;
+    /*background-color: red;*/
 }
 .navbar-nav>li>a:hover {
-    background-color: #e7e7e7 !important;   
+    /*background-color: red !important;   */
 }
 /** Banner **/
 #godown {

@@ -2,6 +2,8 @@
 @import "compass/css3"
 //Global CLass
 
+
+$orange : #ef7a00
 .center
 	text-align: center
 
@@ -20,7 +22,7 @@ h2
 	font-size: 50px
 	margin : 20px 0
 .btn
-	background : #ef7a00
+	background : $orange
 	color : white
 	display : inline-block
 	font-size : 20px
@@ -31,13 +33,52 @@ h2
 
 
 .navbar
-	top : -80px
-	transition : all 0.2s ease-in-out 
-.navbarActive
-	background : #fff
-	top : 0px
-	// border-bottom : 1px solid #bbb
+	// top : -80px
+	transition : all 0.2s ease-in-out
+	.logo
+		display : none
+.navbar
+	height : 85px
+.menu-link
+	color : #eee
+	line-height: inherit!important
+	padding : 0!important
+	margin : 27px 15px
+	transition : all 0.3s
+	font-size : 16px
+	text-decoration : none
+	cursor : pointer
+	height : 30px
+	&:hover
+		background-color : transparent!important
+		border-bottom : 5px solid $orange
+		color : $orange
+		text-decoration: none
 
+@media (max-width: 768px)
+	.navbar-collapse
+		background-color : rgba(255,255,255,0.95)
+		.menu-link
+			margin : 5px 15px
+			&:hover
+				border : none!important
+	.menu-link:hover
+		border : none!important
+		text-decoration : none!important
+
+
+.navbar-collapse
+	
+
+.navbarActive
+	background : rgba(255,255,255,0.95)
+	+box-shadow(rgba(0, 0, 0, 0.1) 0px 1px 0px 0px)
+	.logo
+		display : block
+	a
+		color : #333!important
+		&:hover
+			color : $orange!important
 .banner
 	height : 400px
 	margin-top : -15px
@@ -61,7 +102,7 @@ h2
 		font-size: 55px
 		padding : 20px
 		// margin : 200px 0 0 0
-		color : #ef7a00
+		color : $orange
 		font-family : 'bebasneue_regular', 'helvetica'
 		font-weight: 200
 		text-align: right
@@ -217,7 +258,7 @@ h2
 		padding : 0 20px 20px
 
 	.filter
-		background-color : #ef7a00
+		background-color : $orange
 		opacity : 0.5
 		position: absolute
 		width : 100%

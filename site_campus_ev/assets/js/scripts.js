@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 	$(window).scroll(function(){
 		var s = $(document).scrollTop();
-		if(s > 450){
+		if(s > 150){
 			$('.navbar').addClass('navbarActive');
 		} else {
 			$('.navbar').removeClass('navbarActive');
