@@ -15,8 +15,8 @@
       <ul class="nav navbar-nav navbar-right">
         <?php foreach($pages->visible() as $p): ?>
         <li <?php e($p->hasVisibleChildren(), ' class="dropdown" ') ?>>
-          <a class="menu-link" <?php e($p->isOpen(), ' class="active"') ?><?php e($p->hasVisibleChildren(), 'class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"') ?> href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a>
-          <?php if ($p->hasVisibleChildren()) : ?>
+          <a class="menu-link" href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a>
+<!--           <?php if ($p->hasVisibleChildren()) : ?>
             <ul class="dropdown-menu" role="menu">
               <?php foreach ($p->children()->visible() as $p) : ?>
                 <li>
@@ -24,7 +24,7 @@
                 </li>
               <?php endforeach ?>
             </ul>
-          <?php endif ?>
+          <?php endif ?> -->
         </li>
         <?php endforeach ?>
       </ul>
