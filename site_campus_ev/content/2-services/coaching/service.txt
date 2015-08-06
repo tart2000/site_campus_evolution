@@ -1,4 +1,4 @@
-Title: Formation B
+Title: Coaching
 
 ----
 
@@ -34,4 +34,4 @@ Video:
 
 ----
 
-Icon: user
+Icon: users

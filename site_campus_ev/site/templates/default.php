@@ -1,7 +1,7 @@
 <?php snippet('head') ?>
 <?php snippet('menu') ?>
 
-  <div class="container">
+  <div class="container page">
 
     <div class="text">
     
