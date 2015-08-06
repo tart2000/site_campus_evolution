@@ -26,7 +26,7 @@ $(document).ready(function() {
 
     // Scroll button on HP
     $('#godown').click(function () {
-        $('html, body').scrollTo($('#piliers'), 300, {offset:{top:-30}});
+        $('html, body').scrollTo($('#piliers'), 300, {offset:{top:-100}});
     });
 
 
