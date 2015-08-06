@@ -13,8 +13,8 @@
 		<div class="col-sm-12">
 			<div class="col-sm-5"></div>
 			<div class="col-sm-7 description">
-				<p><?php echo $site->description(); ?></p>
-				<a class='btn' href="#">Voir nos services</a>
+				<h1><?php echo $site->description(); ?></h1>
+				<button class='btn-effect' href="#">Voir nos services</button>
 			</div>
 		</div>
 	</div>

@@ -9,23 +9,75 @@ $orange : #ef7a00
 
 body, html
 	width : 100%
+	font-family: 'Ubuntu', sans-serif
 	background-color : #f1f1f1
 	-webkit-font-smoothing: antialiased
 	-moz-osx-font-smoothing: grayscale
 	font-smoothing : antialiased
 
-h1, h2,h3
-	text-align: center
+h1
 	font-family : 'bebasneue_regular', 'helvetica'
+	font-size : 50px
+
 
 h2
-	font-size: 50px
+	font-size: 40px
 	margin : 20px 0
-.btn
-	background : $orange
+.btn-effect
+	min-width: 150px
+	max-width: 250px
+	display: block
+	margin: 1em
+	padding: 1em 2em
+	border: none
+	background: none
+	color: inherit
+	vertical-align: middle
+	position: relative
+	z-index: 1
+	-webkit-backface-visibility: hidden
+	-moz-osx-font-smoothing: grayscale
+	overflow: hidden
+	width: 245px
+	-webkit-transition: border-color 0.3s, color 0.3s
+	transition: border-color 0.3s, color 0.3s
+	-webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1)
+	transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1)
+	padding : 0
+	line-height : 45px
+	background : transparent
 	color : white
 	display : inline-block
 	font-size : 20px
+	border : 2px solid $orange
+	color : $orange
+	text-transform : uppercase
+	font-size : 18px
+	&:before
+		background : $orange
+		content: ''
+		position: absolute
+		top: 0
+		left: 0
+		width: 150%
+		height: 100%
+		z-index: -1
+		-webkit-transform: rotate3d(0, 0, 1, -45deg) translate3d(0, -3em, 0)
+		transform: rotate3d(0, 0, 1, -45deg) translate3d(0, -3em, 0)
+		-webkit-transform-origin: 0% 100%
+		transform-origin: 0% 100%
+		-webkit-transition: -webkit-transform 0.3s, opacity 0.3s, background-color 0.3s
+		transition: transform 0.3s, opacity 0.3s, background-color 0.3s
+	&:hover
+		border : 2px solid $orange
+		color : white
+		&:before
+			background : $orange
+			opacity: 1
+			-webkit-transform: rotate3d(0, 0, 1, 0deg)
+			transform: rotate3d(0, 0, 1, 0deg)
+			-webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1)
+			transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1)
 
 
 .bgWhite
@@ -99,18 +151,11 @@ h2
 
 	.description
 		background : rgba(255,255,255,0.5)
-		font-size: 55px
 		padding : 20px
-		// margin : 200px 0 0 0
-		color : $orange
-		font-family : 'bebasneue_regular', 'helvetica'
-		font-weight: 200
 		text-align: right
-		// position : absolute
-		// bottom : 150px
-		// right : 150px
-		// max-width: 650px
-		// text-transform: uppercase
+		// font-weight: 200
+		h1
+			color : $orange
 
 #clients 
 	margin : 40px 0 70px
@@ -229,7 +274,7 @@ h2
 		line-height: 260px
 		vertical-align: middle
 		// margin : 40px 0
-		background: #EF7B00 url(/assets/images/hands.jpg) no-repeat center center
+		background: $orange url(/assets/images/hands.jpg) no-repeat center center
 		background-repeat : no-repeat
 		background-position: center center
 		-webkit-background-size: cover

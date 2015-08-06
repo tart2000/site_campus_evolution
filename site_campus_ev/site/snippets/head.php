@@ -15,7 +15,9 @@
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,300,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="assets/css/font.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/buttons.css">
   <link rel="stylesheet" href="assets/css/screen.css">
   <link rel="stylesheet" href="assets/css/jquery.bxslider.css">
   <?php echo css('assets/css/main.css') ?>
