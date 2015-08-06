@@ -25,6 +25,7 @@
 <div id="godown" class="fa fa-angle-down"></div>
 
 <div class="container">
+	<?php snippet('piliers2') ?>
 	<?php snippet('piliers') ?>
 
 	<div class="row">

@@ -41,7 +41,36 @@
   cursor: pointer;
   z-index: 100;
 }
-
+/** Piliers 2 **/
+.number {
+    width: 30%;
+    border-top: black 1px solid; 
+    margin-left: auto;
+    margin-right: auto;
+}
+.num {
+    position: relative;
+  bottom: 40px;
+  left: 50%;
+  width: 8rem;
+  height: 8rem;
+  margin-left: -35px;
+  background: #ffffff;
+  border: 1px black solid;
+  border-radius: 50%;
+  font-size: 4.2rem;
+  line-height: 8rem;
+  text-align: center;
+  cursor: pointer;
+  z-index: 100;
+}
+.pilier-text {
+    position: relative;
+    top: -45px;
+}
+.pilier-text h2 {
+    text-transform: uppercase;
+}
 /** General CSS **/
 .pt {
     padding-top: 15px; 
