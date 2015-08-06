@@ -14,7 +14,7 @@
 			<div class="col-sm-5"></div>
 			<div class="col-sm-7 description">
 				<h1><?php echo $site->description(); ?></h1>
-				<button class='btn-effect' href="#">Voir nos services</button>
+				<button class='btn-effect  btn-large' href="#">Voir nos services</button>
 			</div>
 		</div>
 	</div>
