@@ -49,7 +49,4 @@
 
 </div>
 
-<div class="container">
-	<?php snippet('socials') ?>
-	<?php snippet('links') ?>
-</div>
+<?php snippet('footer') ?>

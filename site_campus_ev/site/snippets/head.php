@@ -15,20 +15,18 @@
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
-  <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,300,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="assets/css/font.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/buttons.css">
-  <link rel="stylesheet" href="assets/css/screen.css">
-  <link rel="stylesheet" href="assets/css/jquery.bxslider.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/font.css">
+  <link rel="stylesheet" href="/assets/css/screen.css">
+  <link rel="stylesheet" href="/assets/css/jquery.bxslider.css">
   <?php echo css('assets/css/main.css') ?>
 
 
   <!-- js  -->
   <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-  <script src="assets/js/jquery.bxslider.min.js"></script>
-  <script src="assets/js/jquery_parallax.js"></script>
-  <script src="assets/js/scripts.js"></script>
+  <script src="/assets/js/jquery.bxslider.min.js"></script>
+  <script src="/assets/js/jquery_parallax.js"></script>
+  <script src="/assets/js/scripts.js"></script>
 
   <link rel="icon" type="image/ico" href="/assets/images/favicon.ico" />
 
