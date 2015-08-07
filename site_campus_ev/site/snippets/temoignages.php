@@ -19,7 +19,7 @@
 						    <?php if($t->service() != ""){
 							    $pageService = page('services')->find($t->service());
 							?>
-								<button href="<?php echo $pageService->url(); ?>" class="btn-effect"><?php echo $pageService->title(); ?></button>
+								<a href="<?php echo $pageService->url(); ?>" class="btn-effect"><?php echo $pageService->title(); ?></a>
 							 <?php }?>
 
 						   

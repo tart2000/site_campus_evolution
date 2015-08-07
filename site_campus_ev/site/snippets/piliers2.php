@@ -9,7 +9,7 @@
 				</div>
 				<div class="col-md-10 col-xs-9 left">
 					<h3><?php echo $p->title() ?></h3>
-					<?php echo $p->text()->kirbytext() ?>
+					<p><?php echo $p->text()->kirbytext()->excerpt(100) ?></p>
 					<a href="<?php echo $p->url() ?>">En savoir plus <i class="fa fa-arrow-right"></i></a>
 				</div>
 			</div>

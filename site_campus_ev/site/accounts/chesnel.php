@@ -6,12 +6,12 @@ password: >
   $2a$10$u8rFVyfX3TvXnSvi.IT0wehEypF6.ANU7jQjW1CUzvmw/mxfXw8cK
 language: fr
 role: admin
-token: 317189fe5af6134e0eb7d118c36c1bf8c5aca7f5
+token: 20ad208ccddf9d363ec3792da928a9a819be4f21
 firstname: Pierre-Antoine
 lastname: Chesnel
 history:
-  - services/coaching
-  - temoignages/john-doe
-  - temoignages/michel-robin
-  - services/DSP1
   - services/conference
+  - services/conference-de-malaade
+  - offre/liberer-le-projet-d-entreprise
+  - services/formation-sur
+  - services/DSP1

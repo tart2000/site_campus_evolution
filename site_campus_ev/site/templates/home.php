@@ -32,9 +32,7 @@
 		<div class="col-sm-12">
 			<h2>Nos Services</h2>
 			<?php foreach (page('services')->children()->limit(3) as $s): ?>
-				<div class="col-sm-4">
-			 		<?php snippet('service', array('service' => $s)) ?>
-			 	</div>
+			 	<?php snippet('service', array('service' => $s)) ?>
 			<?php endforeach ?>
 			<a href="<?php echo page('services')->url(); ?>" class="btn-effect">Tous nos services</a>
 		</div>

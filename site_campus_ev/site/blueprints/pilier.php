@@ -7,12 +7,8 @@ fields:
   title:
     label: Titre
     type:  text
-  videoV:
-  	label: Vidéo Viméo
-  	type: url
-  	width: 1/2
-  vidéoY: 
-  	label: Vidéo Youtube
+  video:
+  	label: Vidéo
   	type: Url
   	width: 1/2
   text:

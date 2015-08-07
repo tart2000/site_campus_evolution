@@ -14,6 +14,7 @@ body, html
 	-webkit-font-smoothing: antialiased
 	-moz-osx-font-smoothing: grayscale
 	font-smoothing : antialiased
+	font-size : 16px
 
 h1
 	font-family : 'bebasneue_regular', 'helvetica'
@@ -23,11 +24,27 @@ h1
 h2
 	font-size: 40px
 	margin : 20px 0
+
+
+label
+	display : block
+	font-size : 18px
+	margin : 0
+
+a
+	color : $orange
+	text-decoration: none
+
+	&:hover
+		border-bottom : 1px solid $orange
+		text-decoration: none
+		color : $orange
+
 .btn-effect
 	// min-width: 150px
 	// max-width: 250px
 	display: block
-	margin: 1em
+	// margin: 1em
 	border: none
 	background: none
 	color: inherit
@@ -93,6 +110,8 @@ h2
 	background-color : rgba(255,255,255,0.95)
 	a
 		color : #333
+	.logo
+		border-bottom : none
 
 .menu-link
 	color : #333
@@ -158,6 +177,9 @@ h2
 		margin-bottom : 80px
 		img
 			margin : 100px 0 0
+		a
+			border-bottom : none
+
 
 	.description
 		background : rgba(255,255,255,0.5)
@@ -179,15 +201,17 @@ h2
 			display : table-cell
 			height: 130px
 			padding : 0 10px
+			border-bottom : none
 			img
 				vertical-align: middle
+				padding : 20px
 				// max-width: 200px
 				+filter(grayscale(100%))
 				transition : all 0.1s ease-in-out
 				&:hover
 					+filter(grayscale(0%))
 
-//Piliers
+//----- PILIERS ------
 #piliers
 	margin : 0 0 100px 0
 .pilier
@@ -216,6 +240,13 @@ h2
 	.pilier:nth-child(even)
 		top : 0
 		min-height: 10px
+
+
+//----- PILIER
+
+#pilier
+	h1 img
+		margin : 0 5px 0 -4px
 
 #temoignages
 	display: inline-block
@@ -265,12 +296,22 @@ h2
 
 //------ SERVICE ----------//
 
-#services
-	text-align: center
+
+.homePage #services
+	text-align : center
 	margin : 0 0 40px 0
+
+#services
+	text-align: left
+	// text-align : justify
 	h2
-		text-align: center
-.service
+		margin-top : 0
+		// text-align: center
+	.description
+		// background : #fff
+		// padding :  0px
+		font-size: 16px
+a.service
 	text-align : center
 	width : 100%
 	margin : 0 0 30px 
@@ -282,27 +323,7 @@ h2
 	transition : all 0.1s
 	&:hover
 		-webkit-transform: scale(1.03,1.03)
-	.image
-		background-blend-mode: multiply
-		display: inline-block
-		height : 260px
-		width: 100%
-		color : white
-		font-size: 100px
-		line-height: 260px
-		vertical-align: middle
-		// margin : 40px 0
-		background: $orange url(/assets/images/hands.jpg) no-repeat center center
-		background-repeat : no-repeat
-		background-position: center center
-		-webkit-background-size: cover
-		-moz-background-size: cover
-		-o-background-size: cover
-		background-size: cover
-		// height : 20vw
-	&:hover
-		color : black
-		text-decoration : none
+		border-bottom : none
 	img
 		width : 100%
 		// +filter(grayscale(100%))
@@ -330,6 +351,51 @@ h2
 	.btn-effect
 		margin : 0 0 20px 0
 
+a.service-horizontal
+	text-align : left
+	.image-service
+		width : 100%
+		height : 170px
+		line-height: 170px
+	.information
+		height : 170px
+		padding : 0 20px 0 0
+
+.image-service
+	background-blend-mode: multiply
+	display: inline-block
+	height : 260px
+	width: 100%
+	color : white
+	font-size: 100px
+	line-height: 260px
+	vertical-align: middle
+	// margin : 40px 0
+	background: $orange url(/assets/images/hands.jpg) no-repeat center center
+	background-repeat : no-repeat
+	background-position: center center
+	-webkit-background-size: cover
+	-moz-background-size: cover
+	-o-background-size: cover
+	background-size: cover
+	text-align : center
+
+//------- SERVICE -------//
+#service
+	h2
+		margin-top : -6px
+
+	.image-service
+		margin : 0 0 20px 0
+
+	.metadata
+		margin : 0 0 20px 0
+
+	// .video
+	// 	opacity : 0.6
+	// 	transition : all 0.1s
+	// 	&:hover
+	// 		opacity : 1
 
 //------- PAGE ----------/
 .page

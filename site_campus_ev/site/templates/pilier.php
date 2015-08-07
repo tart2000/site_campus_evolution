@@ -3,38 +3,47 @@
 
   <div class="container page">
 
-    <div class="row">
-    	<div class="col-sm-8 col-sm-offset-2">
-    		<div class="center">
-      			<img src="<?php echo $page->images()->first()->url() ?>">
-      		</div>
-      		<h1><?php echo $page->title()->html() ?></h1>
-      		<?php if ($page->videoV() != '') : ?>
-      			<?php echo vimeo($page->videoV()) ?>
-	      	<?php endif ?>
-	      	<?php if ($page->videoY() != '') : ?>
-      			<?php echo vimeo($page->videoY()) ?>
-	      	<?php endif ?>
-      		<?php echo $page->text()->kirbytext() ?>
+    <div class="row" id="pilier">
 
+    	<div class="col-sm-8 col-sm-offset-2">
+
+      		
+      		<h1><img src="<?php echo $page->images()->first()->url() ?>"> <?php echo $page->title()->html() ?></h1>
+          <div class="bmb">
+            <?php echo $page->text()->kirbytext(); ?>
+          </div>
+          <?php 
+            if (preg_match ("/\b(?:youtu|youtube)\b/i", $page->video())) {
+               echo youtube($page->video(), '100%', 400);
+            } else if(preg_match ("/\b(?:vimeo)\b/i", $page->video())) {
+              echo vimeo($page->video(), '100%', 400);
+            }
+           ?>
 
       		<!-- for each services associés -->
   		</div>
-      <div class="col-sm-12">
-        <h2>Services</h2>
-        <?php 
-          // $services = page('services')->children() 
-          $uid = $page->uid();
-          // echo $uid;
-          $services = page('services')->children()->filterBy('piliers', '==', $uid);
 
-          ?>
-        <?php foreach ($services as $s) : ?>
-          <div class="col-sm-4">
-            <?php snippet('service', array('service' => $s)) ?>
+        <?php 
+        // $services = page('services')->children() 
+        $uid = $page->uid();
+        // echo $uid;
+        $services = page('services')->children()->filterBy('piliers', '==', $uid);
+
+        if($services != ''): ?>
+      
+          <div class="col-sm-8 col-sm-offset-2 services">
+           
+            <h2 class='center'>Services associés</h2>
+
+              
+                <div class="row">
+                  <?php foreach ($services as $s) : ?>
+                      <?php snippet('service-horizontal', array('service' => $s)) ?>
+                   <?php endforeach; ?>
+                </div>
+              
           </div>
-         <?php endforeach; ?>
-      </div>
+      <?php endif; ?>
     </div>
 
   </div>
