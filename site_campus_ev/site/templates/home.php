@@ -26,6 +26,17 @@
 <div id="godown" class="fa fa-angle-down"></div>
 
 <div class="container">
+	<div class="row" id="description">
+		<div class="col-sm-1"></div>
+		<div class="col-sm-7">
+			<?php echo page('home')->text()->kirbytext(); ?>	
+		</div>
+		<div class="col-sm-4">
+			<a class='fancybox-media link-video' href="<?php echo page('home')->video(); ?>" >
+				<img src="/assets/images/1min.jpg" width="100%">
+			</a>
+		</div>
+	</div>
 	<?php snippet('piliers2') ?>
 
 	<div class="row" id='services'>

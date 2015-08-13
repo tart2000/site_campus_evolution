@@ -18,6 +18,8 @@
   <link rel="stylesheet" type="text/css" href="/assets/css/font.css">
   <link rel="stylesheet" href="/assets/css/screen.css">
   <link rel="stylesheet" href="/assets/css/jquery.bxslider.css">
+  <link rel="stylesheet" href="/assets/fancybox/jquery.fancybox.css">
+
   <?php echo css('assets/css/main.css') ?>
 
 
@@ -25,7 +27,9 @@
   <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
   <script src="/assets/js/jquery.bxslider.min.js"></script>
-  <script src="/assets/js/jquery_parallax.js"></script>
+  <script src="/assets/fancybox/jquery.fancybox.pack.js"></script>
+  <script src="/assets/fancybox/helpers/jquery.fancybox-media.js"></script>
+
   <script src="/assets/js/scripts.js"></script>
 
   <link rel="icon" type="image/ico" href="/assets/images/favicon.ico" />

@@ -142,6 +142,36 @@ a
 	.menu-link
 		color : #eee
 
+	#description
+		font-size : 28px
+		margin : 30px 0
+
+	.link-video
+		position : relative
+		float: left
+		border-bottom : none
+		img
+			width : 100%
+			opacity : 0.5
+		&:after
+			content : '▶'
+			position : absolute
+			width : 70px
+			height : 70px
+			margin : -35px 0 0 -35px
+			left : 50%
+			top : 50%
+			font-size : 50px
+			border : 2px solid $orange
+			padding : 0 0 0 15px
+			line-height: 70px
+			+border-radius(50px)
+			opacity : 1
+			transition : all 0.2s
+		&:hover:after
+			background : $orange
+			color : white
+
 @media (max-width: 768px)
 	.navbar-collapse
 		background-color : rgba(255,255,255,0.95)
@@ -225,8 +255,10 @@ a
 			// max-width: 200px
 			+filter(grayscale(100%))
 			transition : all 0.1s ease-in-out
+			opacity : 0.7
 			&:hover
 				+filter(grayscale(0%))
+				opacity : 1
 
 
 //----- PILIERS ------

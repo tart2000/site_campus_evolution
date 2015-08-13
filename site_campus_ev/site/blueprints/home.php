@@ -4,9 +4,12 @@ title: Home
 pages: false
 fields:
   title:
-    label: Title
+    label: Titre
     type:  text
   text:
-    label: Text
+    label: Texte
     type:  textarea
     size:  large
+  video:
+  	label : Url vidéo
+  	type : url

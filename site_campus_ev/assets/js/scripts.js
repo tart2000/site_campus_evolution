@@ -1,5 +1,15 @@
 $(document).ready(function() {
 
+
+    $('.fancybox-media').fancybox({
+        openEffect  : 'none',
+        closeEffect : 'none',
+        padding : 0,
+        helpers : {
+            media : {}
+        }
+    });
+
 	$(window).scroll(function(){
 		var s = $(document).scrollTop();
 		if(s > 150){
