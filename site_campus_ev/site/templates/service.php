@@ -1,6 +1,6 @@
 <?php snippet('head') ?>
 <?php snippet('menu') ?>
-
+<?php setlocale(LC_ALL, 'fr_CA'); ?>
 <div class="container page">
 	<div class="row" id='service'>
 		
@@ -78,8 +78,23 @@
 				
 			</div>
 
-		</div>
 
+		    <h3>Temoignages</h3>
+			<div class="temoignages">
+			<?php
+				$uid = $page->uid();
+	        	$temoignages = page('temoignages')->children()->filterBy('service', '==', $uid);
+	        	if($temoignages != ''): ?>
+	      
+
+					<?php foreach ($temoignages as $t) : ?>
+						<?php snippet('temoignage', array('temoignage' => $t)) ?>
+					<?php endforeach; ?>
+		        
+	              
+	    		<?php endif; ?>
+			</div>
+		</div>
 	</div>
 </div>
 

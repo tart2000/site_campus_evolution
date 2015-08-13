@@ -16,7 +16,7 @@
 
 		<div class="information">
 			<h3><?php echo $service->title(); ?></h3>
-			<div class="text"><?php echo excerpt($service->text(),200) ?></div>
+			<div class="text"><?php echo excerpt($service->text(),150) ?></div>
 		</div>
 
 	</a>

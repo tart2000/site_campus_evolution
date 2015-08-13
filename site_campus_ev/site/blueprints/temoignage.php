@@ -7,6 +7,10 @@ fields:
   title:
     label: Nom
     type: text
+  date:
+    label : date
+    type : date
+    width : 1/2
   poste:
     label: Poste
     type: text

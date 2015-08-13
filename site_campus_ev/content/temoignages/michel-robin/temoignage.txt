@@ -2,7 +2,7 @@ Title: Michel Robin
 
 ----
 
-Video: 
+Video: https://vimeo.com/rollo/betweenthelines
 
 ----
 
@@ -19,3 +19,7 @@ Poste: Développeur
 ----
 
 Company: World Company
+
+----
+
+Date: 2015-08-19

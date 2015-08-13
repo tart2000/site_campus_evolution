@@ -20,20 +20,31 @@
             }
            ?>
 
-      		<!-- for each services associés -->
+      		<div class="row nav-piliers">
+              <div class="col-xs-6 left">
+                <?php if($prev = $page->prev()): ?>
+                  <a href="<?php echo $prev->url() ?>"><i class="fa fa-arrow-left"></i> <?php echo $prev->title() ?></a>
+                <?php endif; ?>
+                </div>
+
+              <div class="col-xs-6 right">
+                <?php if($next = $page->next()): ?>
+                  <a href="<?php echo $next->url() ?>"><?php echo $next->title() ?>  <i class="fa fa-arrow-right"></i></a>
+                <?php endif; ?>
+              </div>
+          </div>
+
   		</div>
 
         <?php 
-        // $services = page('services')->children() 
-        $uid = $page->uid();
-        // echo $uid;
-        $services = page('services')->children()->filterBy('piliers', '==', $uid);
 
+        $uid = $page->uid();
+        $services = page('services')->children()->filterBy('piliers', '==', $uid);
         if($services != ''): ?>
       
           <div class="col-sm-8 col-sm-offset-2 services">
            
-            <h2 class='center'>Services associés</h2>
+            <h3 class=''>Services associés</h3>
 
               
                 <div class="row">
