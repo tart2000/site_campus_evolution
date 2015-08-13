@@ -39,11 +39,13 @@
 	</div>
 </div>
 
-<div class="bgWhite">
-	<div class="container ">
-		<?php snippet('clients') ?>
+	<div class="bgWhite">
+		<div class="container ">
+			<?php snippet('clients') ?>
+		</div>
 	</div>
-</div>
+
+
 	<?php snippet('temoignages') ?>
 
 </div>

@@ -192,28 +192,42 @@ a
 		h1
 			color : $orange
 
-#clients 
+
+// CLIENTS ----------//
+
+#clients:not(.page)
 	margin : 40px 0 70px
 	h2
 		text-align: center
-	.client
+	.btn-clients .btn-effect
+		margin : 40px 0 0 0
+		border : none
+#clients.page
+	margin-top : 85px
+	background : white
+	padding-bottom : 60px
+
+.client
+	text-align: center
+	margin-top: 30px
+	a
+		vertical-align: middle
 		text-align: center
-		margin-top: 30px
-		a
+		display : table-cell
+		height: 160px
+		padding : 0 10px
+		border-bottom : none
+		img
 			vertical-align: middle
-			display : table-cell
-			height: 130px
-			padding : 0 10px
-			border-bottom : none
-			img
-				vertical-align: middle
-				padding : 20px
-				min-width: 100px
-				// max-width: 200px
-				+filter(grayscale(100%))
-				transition : all 0.1s ease-in-out
-				&:hover
-					+filter(grayscale(0%))
+			padding : 10px
+			min-width: 100px
+			max-height: 160px
+			// max-width: 200px
+			+filter(grayscale(100%))
+			transition : all 0.1s ease-in-out
+			&:hover
+				+filter(grayscale(0%))
+
 
 //----- PILIERS ------
 #piliers

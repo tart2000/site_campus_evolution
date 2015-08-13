@@ -8,7 +8,7 @@
 				<div class="slider">
 					<div class="temoignage">
 						<i class="fa fa-2x fa-quote-left"></i>
-					    <i><?php echo $t->texte()->Kirbytext() ?></i><br>
+					    <i><?php echo $t->texte()->Kirbytext()->excerpt(200)  ?></i><br>
 					    <div class="author"><strong><?php echo $t->title() ?></strong></div>
 					    <div class="status"><?php echo $t->poste() ?>, <?php echo $t->company() ?></div> 
 					    </br>

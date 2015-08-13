@@ -10,8 +10,8 @@ token: 20ad208ccddf9d363ec3792da928a9a819be4f21
 firstname: Pierre-Antoine
 lastname: Chesnel
 history:
+  - clients/molson
   - temoignages/mister-valaire
   - temoignages/michel-robin
   - temoignages/john-doe
   - contact
-  - services/conference
