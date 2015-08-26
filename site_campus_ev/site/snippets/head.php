@@ -29,8 +29,9 @@
   <script src="/assets/js/jquery.bxslider.min.js"></script>
   <script src="/assets/fancybox/jquery.fancybox.pack.js"></script>
   <script src="/assets/fancybox/helpers/jquery.fancybox-media.js"></script>
-
+  
   <script src="/assets/js/scripts.js"></script>
+  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 
   <link rel="icon" type="image/ico" href="/assets/images/favicon.ico" />
 
