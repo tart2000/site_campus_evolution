@@ -100,7 +100,7 @@
 	        		$event = $evenements->first();
 	        	 ?>
 	        		
-							<?php snippet('evenement', array('evenement' => $event)) ?>
+				<?php snippet('evenement', array('evenement' => $event)) ?>
 	        		
 	        <?php } ?>
 			
