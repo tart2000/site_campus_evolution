@@ -28,7 +28,17 @@
 			<?php if($page->objectifs() != ""): ?>
 				<div class="metadata">
 					<label>Objectifs</label>
-					<?php echo $page->objectifs(); ?>
+					<ul>
+					<?php $objectifs = split(',', $page->objectifs()); ?>
+					<?php 
+						foreach ($objectifs as $key => $value) {
+							?>
+							<li> <?php echo $value ?> </li>
+							<?php
+							// echo '<li>'+$value+'</li>';
+						}
+					?>
+					</ul>
 				</div>
 			<?php endif; ?>
 
