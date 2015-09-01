@@ -18,7 +18,7 @@ Service: conference-de-malaade
 
 ----
 
-Texte: Pancetta pastrami leberkas, beef ribs tongue salami ground round venison bresaola doner cow pork loin kielbasa. Ham hock brisket tongue pig kevin bresaola ham, ground round shankle. Pork chop leberkas cupim alcatra fatback, jerky tail cow jowl ball tip andouille porchetta. Kielbasa sausage salami spare ribs filet mignon venison tongue rump. Pork hamburger pork chop kielbasa capicola rump.
+Texte: 
 
 ----
 

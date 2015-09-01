@@ -19,7 +19,7 @@
 			<div class="col-xs-8">
 				<div class="information">
 					<h3><?php echo $service->title(); ?></h3>
-					<?php echo excerpt($service->text(),200) ?>
+					<?php echo excerpt($service->text(),150) ?>
 				</div>
 			</div>
 		</div>

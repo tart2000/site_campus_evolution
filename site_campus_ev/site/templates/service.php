@@ -41,10 +41,9 @@
 
 			<?php if($page->piliers() != ""): ?>
 				<div class="metadata">
-					<label>Piliers</label>
 					<?php if($page->piliers() != ""){
 					$pagePilier = page('offre')->find($page->piliers()); ?>
-					<a href="<?php echo $pagePilier->url(); ?>"><?php echo $pagePilier->title(); ?> <i class="fa fa-arrow-right"></i></a>
+					<a class="btn btn-effect" href="<?php echo $pagePilier->url(); ?>"><?php echo $pagePilier->title(); ?> </a>
 				<?php }?>
 				</div>
 			<?php endif; ?>

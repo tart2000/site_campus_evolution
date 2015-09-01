@@ -5,29 +5,31 @@
 		
 			<div class="slider1">
 			<?php foreach(page('temoignages')->children()->limit(3) as $t): ?>
-				<div class="slider">
-					<div class="temoignage">
-						<i class="fa fa-2x fa-quote-left"></i>
-					    <i><?php echo $t->texte()->Kirbytext()->excerpt(200)  ?></i><br>
-					    <div class="author"><strong><?php echo $t->title() ?></strong></div>
-					    <div class="status"><?php echo $t->poste() ?>, <?php echo $t->company() ?></div> 
-					    </br>
+				<?php if($t->texte()  != ""):?>
+					<div class="slider">
+						<div class="temoignage">
+							<i class="fa fa-2x fa-quote-left"></i>
+						    <i><?php echo $t->texte()->Kirbytext()->excerpt(200)  ?></i><br>
+						    <div class="author"><strong><?php echo $t->title() ?></strong></div>
+						    <div class="status"><?php echo $t->poste() ?>, <?php echo $t->company() ?></div> 
+						    </br>
 
-					    <!-- mettre le lien vers le service lié -->
-	
+						    <!-- mettre le lien vers le service lié -->
+		
 
-						    <?php if($t->service() != ""){
-							    $pageService = page('services')->find($t->service());
-							?>
-								<a href="<?php echo $pageService->url(); ?>" class="btn-effect"><?php echo $pageService->title(); ?></a>
-							 <?php }?>
+							    <?php if($t->service() != ""){
+								    $pageService = page('services')->find($t->service());
+								?>
+									<a href="<?php echo $pageService->url(); ?>" class="btn-effect"><?php echo $pageService->title(); ?></a>
+								 <?php }?>
 
-						   
+							   
 
-	
-				   		<i class="fa fa-2x fa-quote-right"></i>
-				   	</div>
-				</div>
+		
+					   		<i class="fa fa-2x fa-quote-right"></i>
+					   	</div>
+					</div>
+				<?php endif; ?>
 			<?php endforeach ?>
 			</div>
 </div>
