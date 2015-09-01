@@ -10,8 +10,8 @@ token: 13d4d0a5f0c6048d50fcf416e0cc6ca1c5eaa060
 firstname: Pierre-Antoine
 lastname: Chesnel
 history:
+  - evenements/ma-1ere-conference
+  - evenements/ma-2eme
   - services/conference-de-malaade
   - temoignages/mister-valaire
   - contact
-  - home
-  - clients/molson

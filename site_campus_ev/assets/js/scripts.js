@@ -36,7 +36,8 @@ $(document).ready(function() {
 
     // Scroll button on HP
     $('#godown').click(function () {
-        $('html, body').scrollTo($('#piliers'), 300, {offset:{top:-100}});
+        var divToScroll = $('#evenement').length > 0 ? $('#evenement') : $('#description');
+        $('html, body').scrollTo(divToScroll, 1000, {offset:{top:-80}});
     });
 
 

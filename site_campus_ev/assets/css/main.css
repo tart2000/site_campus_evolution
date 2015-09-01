@@ -26,16 +26,16 @@
 }
 /** Banner **/
 #godown {
-  position: relative;
-  bottom: 35px;
+  position: absolute;
+  bottom: 20px;
   left: 50%;
-  width: 7rem;
-  height: 7rem;
+  width: 5rem;
+  height: 5rem;
   margin-left: -35px;
-  background: #ffffff;
+  background: rgba(255,255,255,0.3);
   border-radius: 50%;
   font-size: 6.2rem;
-  line-height: 6.4rem;
+  line-height: 5rem;
   color: #BBBAC0;
   text-align: center;
   cursor: pointer;

@@ -1,6 +1,6 @@
 <?php snippet('head') ?>
 <?php snippet('menu') ?>
-<?php setlocale(LC_ALL, 'fr_CA'); ?>
+<?php setlocale(LC_ALL, 'fr_FR'); ?>
 <div class="container page">
 	<div class="row" id='service'>
 		

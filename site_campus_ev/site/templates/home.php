@@ -25,6 +25,9 @@
 <?php echo js('/assets/js/jquery.scrollTo.js') ?>
 <div id="godown" class="fa fa-angle-down"></div>
 
+
+<?php snippet('evenement'); ?>
+
 <div class="container">
 	<div class="row" id="description">
 		<div class="col-sm-1"></div>

@@ -7,20 +7,14 @@ fields:
   title:
     label: Titre
     type:  text
-  category_conf:
-    label: Conférence
+  category_service:
+    label: Service
     type: select
     options: query
     query:
-      page: conferences
-  category_form:
-    label: Formation
-    type: select
-    options: query
-    query:
-      page: formations
+      page: services
   text:
-    label: Text
+    label: Texte
     type:  textarea
   date:
    	label: Date
@@ -28,12 +22,9 @@ fields:
   lieu:
   	label: Lieu
   	type: text
+  link_name:
+    label: Nom du lien
+    type: text
   link:
   	label: lien
-  	type: url
-  info:
-  	label: Infos
-  	type: url
-  inscription:
-  	label: Inscription
   	type: url
