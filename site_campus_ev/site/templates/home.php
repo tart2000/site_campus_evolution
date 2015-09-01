@@ -26,7 +26,23 @@
 <div id="godown" class="fa fa-angle-down"></div>
 
 
-<?php snippet('evenement'); ?>
+<?php setlocale(LC_ALL, 'fr_FR'); ?>
+<?php 
+
+	$evenement = page('evenements')->children()->filterBy('date', '>', time());
+	if($evenement != ""){
+	$evenementNext = $evenement->sortBy('date', 'asc')->first();
+?>
+
+<div class="container-fluid" id="evenement">
+	<div class="row">
+		<div class="col-xs-8 col-xs-offset-2">
+			<?php snippet('evenement', array('evenement' => $evenementNext)); ?>
+		</div>
+	</div>
+</div>
+<?php } ?>
+
 
 <div class="container">
 	<div class="row" id="description">

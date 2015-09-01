@@ -49,7 +49,7 @@
 				</div>
 			<?php endif; ?>
 
-			
+
 
 
 		</div>
@@ -92,6 +92,18 @@
 			<div class="">
 				<a class="btn btn-effect" href="/contact">Nous contacter</a>
 			</div>
+			<br><br>
+			<?php
+				$uid = $page->uid();
+	        	$evenements = page('evenements')->children()->filterBy('category_service', '==', $uid);
+	        	if($evenements != ""){
+	        		$event = $evenements->first();
+	        	 ?>
+	        		
+							<?php snippet('evenement', array('evenement' => $event)) ?>
+	        		
+	        <?php } ?>
+			
 
 			<?php
 				$uid = $page->uid();
