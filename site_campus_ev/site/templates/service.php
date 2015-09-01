@@ -39,14 +39,7 @@
 				</div>
 			<?php endif; ?>
 
-			<?php if($page->piliers() != ""): ?>
-				<div class="metadata">
-					<?php if($page->piliers() != ""){
-					$pagePilier = page('offre')->find($page->piliers()); ?>
-					<a class="btn btn-effect" href="<?php echo $pagePilier->url(); ?>"><?php echo $pagePilier->title(); ?> </a>
-				<?php }?>
-				</div>
-			<?php endif; ?>
+			
 
 
 		</div>
@@ -73,26 +66,37 @@
 						echo vimeo($page->video(), '100%', 400);
 					}
 				 ?>
-
-				
+	
 			</div>
 
+			<?php if($page->piliers() != ""): ?>
+				<div class="metadata">
+					<?php if($page->piliers() != ""){
+					$pagePilier = page('offre')->find($page->piliers()); ?>
+					Ce service est lié au pilier
+					<a href="<?php echo $pagePilier->url(); ?>"><?php echo $pagePilier->title(); ?> </a>
+				<?php }?>
+				</div>
+			<?php endif; ?>
 
-		    <h3>Temoignages</h3>
-			<div class="temoignages">
+			<div class="">
+				<a class="btn btn-effect" href="/contact">Nous contacter</a>
+			</div>
+
 			<?php
 				$uid = $page->uid();
 	        	$temoignages = page('temoignages')->children()->filterBy('service', '==', $uid);
 	        	if($temoignages != ''): ?>
-	      
+		    	<h3>Temoignages</h3>
+				<div class="temoignages">
 
-					<?php foreach ($temoignages as $t) : ?>
-						<?php snippet('temoignage', array('temoignage' => $t)) ?>
-					<?php endforeach; ?>
-		        
-	              
-	    		<?php endif; ?>
-			</div>
+						<?php foreach ($temoignages as $t) : ?>
+							<?php snippet('temoignage', array('temoignage' => $t)) ?>
+						<?php endforeach; ?>
+			        
+		              
+		    		<?php endif; ?>
+				</div>
 		</div>
 	</div>
 </div>

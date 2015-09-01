@@ -56,13 +56,13 @@ $(document).ready(function() {
     //mapp anti-slide
 
 
-  var latlng = new google.maps.LatLng(48.86015, 2.34546);
+  var latlng = new google.maps.LatLng(45.77300, 4.77911);
 
   var styles = [{
     stylers: [{
       hue: "#ef7a00"
     }, {
-      saturation: 30
+      saturation: 130
     }]
   }, {
     featureType: "road",
@@ -82,8 +82,8 @@ $(document).ready(function() {
 
 
   var myOptions = {
-    zoom: 16,
-    center: new google.maps.LatLng(48.86125, 2.34546),
+    zoom: 12,
+    center: new google.maps.LatLng(45.79300, 4.77911),
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     disableDefaultUI: true,
     styles: styles
@@ -92,8 +92,8 @@ $(document).ready(function() {
   var contentString = '<div id="windowDirection">' +
     '<div class="title">M Evolution</div>' +
     '<div id="bodyContent">' +
-    '34 rue des Bourdonnais  <br>' +
-    '75001 Paris<br>' +
+    '6 rue Clément <br>' +
+    '69130 Ecully<br>' +
     '</div>';
 
   var infowindow = new google.maps.InfoWindow({
