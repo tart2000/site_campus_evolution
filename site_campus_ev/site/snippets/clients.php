@@ -5,7 +5,7 @@
 	<?php $counter = 0 ?>
 	<?php foreach (page('clients')->children()->limit(6) as $c) : ?>
 		<?php if ($c->hasImages()) : ?>
-			<?php snippet('client', array('c' => $c)) ?>
+			<?php snippet('client', array('c' => $c, 'counter' => $counter)) ?>
 		<?php endif ?>
 	<?php endforeach ?>
 	<div class="center btn-clients">

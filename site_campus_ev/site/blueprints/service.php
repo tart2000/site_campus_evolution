@@ -13,16 +13,15 @@ fields:
     type:  text
   piliers:
     label: Pilier(s) (choix du / des piliers correspondant)
-    type: select
+    type: checkboxes
     options: query
     query:
       page: offre
-    width: 1/2
   cible:
     label: Cible
     type: text
   objectifs:
-    label: Objectifs
+    label: Objectifs (séparés par des virgules)
     type: text
   duree:
     label: Durée

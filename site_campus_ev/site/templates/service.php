@@ -88,17 +88,14 @@
 
 			<?php if($page->piliers() != ""): ?>
 				<div class="metadata">
-					<?php if($page->piliers() != ""){
-					$pagePilier = page('offre')->find($page->piliers()); ?>
-					Ce service est lié au pilier
-					<a href="<?php echo $pagePilier->url(); ?>"><?php echo $pagePilier->title(); ?> </a>
-				<?php }?>
+					<?php foreach ($page->piliers()->split() as $pilier) : ?>
+						<?php $pagePilier= page('offre')->find($pilier); ?>
+						<a href="<?php echo $pagePilier->url(); ?>" class="btn btn-effect"><?php echo $pagePilier->title(); ?> </a>
+					<?php endforeach ?>
 				</div>
 			<?php endif; ?>
 
-			<div class="">
-				<a class="btn btn-effect" href="/contact">Nous contacter</a>
-			</div>
+
 			<br><br>
 			<?php
 				$uid = $page->uid();
@@ -126,7 +123,12 @@
 		              
 		    		<?php endif; ?>
 				</div>
+
 		</div>
+
+	</div>
+	<div class="bmt center">
+		<a class="btn btn-effect" href="/contact">Nous contacter</a>
 	</div>
 </div>
 

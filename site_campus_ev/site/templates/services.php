@@ -10,7 +10,7 @@
 				<?php echo $page->text()->kirbytext() ?>
 			</div>
 		</div>
-			<?php foreach ($page->children() as $s): ?>
+			<?php foreach ($page->children()->sortBy('type','desc') as $s): ?>
 			 	<?php snippet('service', array('service' => $s)) ?>
 			<?php endforeach ?>
 
