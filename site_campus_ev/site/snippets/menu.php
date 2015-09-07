@@ -3,7 +3,7 @@
   <div class="container">
     <div class="navbar-header">
       <a class="navbar-brand logo" href="<?php echo $site->url ?>">
-        <img src="/assets/images/logo_M_seul.png" class="img-responsive">
+        <img src="/assets/images/logo_M-evolution_navbar.png" class="img-responsive">
       </a>
       <a type="button" class="menu-link navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
         Menu

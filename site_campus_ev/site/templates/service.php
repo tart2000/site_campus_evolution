@@ -5,7 +5,7 @@
 	<div class="row" id='service'>
 		
 
-		<div class="col-sm-3">
+		<div class="col-sm-3"> <!-- colonne de gauche -->
 		<?php 
 			if($page->hasImages()):
 				$image = $page->images()->first();
@@ -29,7 +29,7 @@
 				<div class="metadata">
 					<label>Objectifs</label>
 					<ul>
-					<?php $objectifs = split(',', $page->objectifs()); ?>
+					<?php $objectifs = explode(',', $page->objectifs()); ?>
 					<?php 
 						foreach ($objectifs as $key => $value) {
 							?>
@@ -49,10 +49,17 @@
 				</div>
 			<?php endif; ?>
 
+			<!-- Téléchrgements de PDFs -->
+			<?php if($page->documents()->filterBy('extension', 'pdf') != '') : ?>
+				<div class="metadata">
+					<label>Téléchargement<?php if ($page->documents()->filterBy('extension', 'pdf')->count() > 1) : ; echo 's'; endif ; ?></label>
+					<?php foreach ($page->documents()->filterBy('extension', 'pdf') as $pdf) : ?>
+						<a href="<?php echo $pdf->url() ?>" download><?php echo $pdf->filename() ?></a> (<?php echo $pdf->niceSize() ?>)</br>
+					<?php endforeach ?>
+				</div>
+			<?php endif ?>
 
-
-
-		</div>
+		</div> <!-- Fin colonne de gauche -->
 
 		<div class="col-sm-9">	
 			<h2><?php echo $page->title() ?></h2>
@@ -61,7 +68,7 @@
 			</div>
 
 			<?php if($page->why() != ""): ?>
-				<h2>Pouquoi ce service?</h2>
+				<h2>Pourquoi ce service?</h2>
 				<div class="bmb">
 					<?php echo $page->why()->kirbytext(); ?>
 				</div>
