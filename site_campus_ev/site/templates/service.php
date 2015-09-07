@@ -96,15 +96,14 @@
 			<?php endif; ?>
 
 
-			<br><br>
 			<?php
 				$uid = $page->uid();
-	        	$evenements = page('evenements')->children()->filterBy('category_service', '==', $uid);
-	        	if($evenements != ""){
-	        		$event = $evenements->first();
-	        	 ?>
-	        		
-				<?php snippet('evenement', array('evenement' => $event)) ?>
+	        	$evenements = page('evenements')->children()->filterBy('category_service', '==', $uid)->filterBy('date', '>', time());
+	        	if($evenements != ""){ ?>
+	        		<h3>À venir</h3>
+		        	<?php foreach ($evenements as $event) : ?>
+						<?php snippet('evenement', array('evenement' => $event)) ?>
+					<?php endforeach ?>
 	        		
 	        <?php } ?>
 			

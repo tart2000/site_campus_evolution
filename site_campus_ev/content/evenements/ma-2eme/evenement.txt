@@ -6,20 +6,20 @@ Category-service: conference-de-malaade
 
 ----
 
-Text: 
+Text: Tail tri-tip short ribs, leberkas pork loin biltong shoulder ham hock jerky ham. Strip steak pig spare ribs bresaola, ribeye chicken swine biltong pork loin jerky meatloaf brisket. Short loin ground round picanha, beef ham porchetta turducken.
 
 ----
 
-Date: 2015-09-13
+Date: 2015-09-03
 
 ----
 
-Lieu: 
+Lieu: rock on !
 
 ----
 
-Link-name: 
+Link-name: inscriptions ?
 
 ----
 
-Link: 
+Link: http://gogole.com

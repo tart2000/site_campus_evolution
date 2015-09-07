@@ -10,8 +10,8 @@ language: fr
 role: admin
 token: 260b17a59cd18a132bf8dd03977f2bae3e76ea49
 history:
+  - evenements/ma-2eme
   - services/conference-de-malaade
   - equipe/raphael-balay
   - equipe
   - liens/oser-entreprendre
-  - liens/azoka
