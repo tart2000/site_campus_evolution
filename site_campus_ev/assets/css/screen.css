@@ -276,7 +276,7 @@ a:hover {
 /* line 213, ../sass/screen.sass */
 .banner .big-logo {
   text-align: left;
-  margin-bottom: 80px;
+  margin-bottom: 180px;
 }
 /* line 216, ../sass/screen.sass */
 .banner .big-logo img {
@@ -759,4 +759,19 @@ a.service-horizontal .information {
 /* line 591, ../sass/screen.sass */
 .page {
   margin-top: 120px;
+}
+
+/* tablet */
+@media all and (max-width: 768px) {
+  /* line 601, ../sass/screen.sass */
+  #godown {
+    display: none;
+  }
+}
+@media all and (max-width: 768px) {
+  /* line 605, ../sass/screen.sass */
+  .image-service {
+    height: 200px;
+    line-height: 200px;
+  }
 }
