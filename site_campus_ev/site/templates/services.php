@@ -10,6 +10,13 @@
 				<?php echo $page->text()->kirbytext() ?>
 			</div>
 		</div>
+		<div class="col-md-8 col-sm-12" id="filter">
+			<select class="form-control" id="selectFilter">
+				<option value="all">Tous</option>
+				<option value="formation">Formations</option>
+				<option value="conference">Conférences</option>
+			</select>
+		</div>
 			<?php foreach ($page->children()->sortBy('type','desc') as $s): ?>
 			 	<?php snippet('service', array('service' => $s)) ?>
 			<?php endforeach ?>

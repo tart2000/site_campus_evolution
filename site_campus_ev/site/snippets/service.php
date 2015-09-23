@@ -1,5 +1,5 @@
 
-<div class="col-md-4 col-sm-6">
+<div class="col-md-4 col-sm-6 service <?php echo $service->type(); ?>">
 	<?php 
 		if($service->hasImages()):
 			$image = $service->images()->first();

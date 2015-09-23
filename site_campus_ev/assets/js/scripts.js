@@ -158,4 +158,17 @@ $(document).ready(function() {
         });
     }
 
+    //Filter services
+    $('#selectFilter').on('change', function() {
+        var type = $(this).val();
+        console.log(type);
+
+        if (type == 'all') {
+            $('.col-md-4.service').removeClass('hidden');
+        } else  {
+            $('.col-md-4.service').addClass('hidden');
+            $('.' + type).removeClass('hidden');
+        }
+    });
+
 });

@@ -22,7 +22,7 @@ Duree:
 
 ----
 
-Type: formation
+Type: conference
 
 ----
 
