@@ -7,7 +7,7 @@
 /* line 10, ../sass/screen.sass */
 body, html {
   width: 100%;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "helvetica", sans-serif;
   background-color: #f1f1f1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -305,9 +305,7 @@ a:hover {
 }
 
 /* line 238, ../sass/screen.sass */
-.evenement {
-  display: inline-block;
-}
+
 /* line 243, ../sass/screen.sass */
 .evenement .info {
   line-height: 30px;

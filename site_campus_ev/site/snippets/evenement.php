@@ -10,7 +10,7 @@
 			<?php endif ?>
 		</div>
 
-		<div class="col-sm-8 col-xs-12">
+		<div class="col-sm-9 col-xs-12">
 			<div class="title">
 				<?php echo $evenement->title(); ?>
 			</div>
