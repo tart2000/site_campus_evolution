@@ -793,6 +793,12 @@ a.service-horizontal .information {
   #godown {
     display: none;
   }
+  .banner .big-logo img{
+    margin : 30px 0 0 0;
+  }
+  .banner .big-logo{
+    margin-bottom : 30px;
+  }
 }
 @media all and (max-width: 768px) {
   /* line 615, ../sass/screen.sass */
