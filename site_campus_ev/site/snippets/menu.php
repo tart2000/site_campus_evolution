@@ -27,6 +27,10 @@
           <?php endif ?> -->
         </li>
         <?php endforeach ?>
+        <!-- lien vers blog -->
+        <li>
+          <a class="menu-link" href="http://www.oser-entreprendre.fr/" target="_blank">blog</a>
+        </li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>

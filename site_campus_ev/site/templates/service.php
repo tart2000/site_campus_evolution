@@ -86,14 +86,14 @@
 	
 			</div>
 
-			<?php if($page->piliers() != ""): ?>
+			<!-- <?php if($page->piliers() != ""): ?>
 				<div class="metadata">
 					<?php foreach ($page->piliers()->split() as $pilier) : ?>
 						<?php $pagePilier= page('offre')->find($pilier); ?>
 						<a href="<?php echo $pagePilier->url(); ?>" class="btn btn-effect"><?php echo $pagePilier->title(); ?> </a>
 					<?php endforeach ?>
 				</div>
-			<?php endif; ?>
+			<?php endif; ?> -->
 
 
 			<?php

@@ -39,7 +39,7 @@
         <?php 
 
         $uid = $page->uid();
-        $services = page('services')->children()->filterBy('piliers', '==', $uid);
+        $services = page('services')->children()->filterBy('piliers', '*=', $uid);
         if($services != ''): ?>
       
           <div class="col-sm-8 col-sm-offset-2 services">

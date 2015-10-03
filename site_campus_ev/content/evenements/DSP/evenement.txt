@@ -14,7 +14,7 @@ Lieu: Valpré, 1 chemin de Chalin 69130 Ecully
 
 ----
 
-Link: 
+Link: http://google.com
 
 ----
 
@@ -22,4 +22,12 @@ Category-service: DSP1
 
 ----
 
-Link-name: 
+Link-name: plouf plouf
+
+----
+
+Start-time: 15:00
+
+----
+
+End-time: 19:00

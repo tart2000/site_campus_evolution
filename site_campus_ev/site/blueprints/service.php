@@ -33,6 +33,14 @@ fields:
       formation: Formation
       conference: Conférence
     width: 1/2
+  icon:
+    label: Icone
+    type: select
+    options:
+      user : User
+      users : Users
+      microphone : Microphone
+    width: 1/2
   why:
     label: Pourquoi ce service ?
     type: textarea
@@ -42,10 +50,4 @@ fields:
   text:
     label: Texte
     type: textarea
-  icon:
-    label: Icone
-    type: select
-    options:
-      user : User
-      users : Users
-      microphone : Microphone
+

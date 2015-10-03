@@ -213,6 +213,11 @@ a:hover {
   opacity: 1;
   transition: all 0.2s;
 }
+.page img {
+  max-width: 100%;
+  padding-bottom: 15px;
+}
+
 /* line 176, ../sass/screen.sass */
 .homePage .link-video:hover:after {
   background: #ef7a00;
@@ -333,6 +338,12 @@ a:hover {
 #clients:not(.page) .btn-clients .btn-effect {
   margin: 40px 0 0 0;
   border: none;
+}
+.btn-inverse .fa {
+  margin-right: 12px;
+} 
+.btn-inverse {
+  margin-right: 11px;
 }
 
 /* line 266, ../sass/screen.sass */
@@ -790,3 +801,12 @@ a.service-horizontal .information {
     line-height: 200px;
   }
 }
+
+/* Uniform CSS */
+.uniform__potty {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+

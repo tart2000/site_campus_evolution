@@ -12,7 +12,7 @@
   		<div class="col-sm-8 col-sm-offset-2 col-xs-12">
   			<div class="row">
 				<div class="col-sm-7">
-				  	<form action="//formspree.io/leymiris@gmail.com" id="form"  method="POST">
+				  	<form action="//formspree.io/rbalay@mevolution.fr" id="form"  method="POST">
 				  	
 				  		<div class="form-group">
 					    	<input class="form-control input-lg" id="name" required placeholder="nom" type="text" name="name">
@@ -30,7 +30,9 @@
 							<textarea class="form-control input-lg" rows="8" placeholder='message'></textarea>
 					    </div>
 
-
+					    <input type="hidden" name="_next" value="<?php echo $site->url() ?>" />
+					    <input type="hidden" name="_subject" value="Message du site Internet" />
+					    <input type="text" name="_gotcha" style="display:none" />
 
 					    <button type="submit" class="btn btn-effect">Envoyer</button>
 					</form>
