@@ -1,5 +1,5 @@
-Title: Club Piscine
+Title: Sanofi Pasteur
 
 ----
 
-Companylink: http://clubpiscine.com
+Companylink: http://sanofipasteur.com

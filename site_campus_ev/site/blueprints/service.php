@@ -32,6 +32,7 @@ fields:
     options:
       formation: Formation
       conference: Conférence
+      accompagnement: Accompagnement
     width: 1/2
   icon:
     label: Icone

@@ -1,5 +1,10 @@
-Title: Équipe
+Title: L'Équipe
 
 ----
 
-Text: Rencontre notre super équipe ! Bacon ipsum dolor amet shankle short ribs biltong, kevin jerky flank cupim pancetta meatball andouille. Brisket pork loin turducken frankfurter. Flank short loin shoulder kielbasa tail porchetta strip steak prosciutto drumstick. Pork loin turducken frankfurter cow shoulder salami cupim chuck. Corned beef shank pastrami, cow leberkas turkey turducken ham hock.
+Text: 
+
+Nous partageons 3 valeurs :
+**La passion** : Parce qu’un être passionné innove et donne le meilleur de lui même et s’engage au quotidien.
+**L’évolution** : Parce que l’évolution est l’essence de l’homme et d’une organisation collective. Elle est source de progrès, de remise en cause, elle contribue à notre épanouissement personnel et collectif.
+**La confiance** : Parce que sans la confiance rien n’est possible. Elle est la base d’une collaboration, elle permet le respect, l’écoute, la générosité, les échanges, la construction collective, la communication et la sérénité.

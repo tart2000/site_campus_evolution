@@ -15,6 +15,7 @@
 				<option value="all">Tous</option>
 				<option value="formation">Formations</option>
 				<option value="conference">Conférences</option>
+				<option value="accompagnment">Accompagnement</option>
 			</select>
 		</div>
 			<?php foreach ($page->children()->sortBy('type','desc') as $s): ?>

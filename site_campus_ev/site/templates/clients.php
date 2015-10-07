@@ -8,10 +8,10 @@
 
       	<h1 class="center"><?php echo $page->title()->html() ?></h1>
       	<?php echo $page->text()->kirbytext() ?>
-
+      		<?php $counter = 0 ?>
 	      	<?php foreach (page('clients')->children() as $c) : ?>
 				<?php if ($c->hasImages()) : ?>
-					<?php snippet('client', array('c' => $c)) ?>
+					<?php snippet('client', array('c' => $c, 'counter'=>$counter)) ?>
 				<?php endif ?>
 			<?php endforeach ?>
 		</div>

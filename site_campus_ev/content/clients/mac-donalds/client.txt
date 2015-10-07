@@ -1,5 +1,5 @@
-Title: Mac Donalds
+Title: Coralys
 
 ----
 
-Companylink: http://macdonalds.com
+Companylink: http://coralys.net
