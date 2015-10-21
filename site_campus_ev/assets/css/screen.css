@@ -816,4 +816,28 @@ a.service-horizontal .information {
   left: -9999px;
 }
 
+#selectFilter{
+   margin: 10px 0 25px 0;
+}
+
+#pilier h3{
+  font-size: 30px;
+  margin : 15px 0;
+}
+
+@media all and (max-width: 768px) {
+  a.service-horizontal .col-xs-4, a.service-horizontal .col-xs-8{
+    float : inherit;
+    width : inherit;
+    height : inherit;
+  }
+  a.service-horizontal .information{
+    height : inherit;
+    padding : 10px;
+  }
+  .btn-effect{
+  line-height: 20px;
+}
+}
+
 

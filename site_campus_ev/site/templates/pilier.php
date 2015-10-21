@@ -5,7 +5,7 @@
 
     <div class="row" id="pilier">
 
-    	<div class="col-sm-8 col-sm-offset-2">
+    	<div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
 
       		
       		<h1><img src="<?php echo $page->images()->first()->url() ?>"> <?php echo $page->title()->html() ?></h1>
@@ -42,7 +42,7 @@
         $services = page('services')->children()->filterBy('piliers', '*=', $uid);
         if($services != ''): ?>
       
-          <div class="col-sm-8 col-sm-offset-2 services">
+          <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 services">
            
             <h3 class=''>Services associés</h3>
 

@@ -14,7 +14,7 @@
 			<i class="fa fa-<?php echo $service->icon() ?>"></i><br>
 		</div>
 
-		<div class="information">
+		<div class="informationss">
 			<h3><?php echo $service->title(); ?></h3>
 			<div class="text"><?php echo excerpt($service->text(),150) ?></div>
 		</div>
