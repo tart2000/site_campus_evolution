@@ -1,6 +1,6 @@
 
 
-	<div class="evenement">
+	<div class="evenement row">
 		<div class="col-sm-3  col-xs-12 info">
 			<?php if ($evenement->date() != '') : ?>
 				<i class="fa fa-fw fa-calendar-o"></i> <?php echo $evenement->date('d/m/Y') ?> <br>

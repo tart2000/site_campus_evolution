@@ -716,6 +716,7 @@ a.service-horizontal .information {
 /* line 552, ../sass/screen.sass */
 #service .evenement {
   display: flex;
+  display: -webkit-flex;
   background: white;
   padding: 10px 0;
 }
