@@ -311,6 +311,10 @@ a:hover {
 
 /* line 238, ../sass/screen.sass */
 
+.evenement img {
+  max-width: 100%;
+}
+
 /* line 243, ../sass/screen.sass */
 .evenement .info {
   line-height: 30px;

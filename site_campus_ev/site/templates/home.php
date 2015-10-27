@@ -48,8 +48,10 @@
 			<?php foreach (page('services')->children()->limit(3) as $s): ?>
 			 	<?php snippet('service', array('service' => $s)) ?>
 			<?php endforeach ?>
-			<a href="<?php echo page('services')->url(); ?>" class="btn-effect">Tous nos services</a>
 		</div>
+	</div>
+	<div class="col-sm-12 center bmb">
+		<a href="<?php echo page('services')->url(); ?>" class="btn-effect">Tous nos services</a>
 	</div>
 </div>
 
